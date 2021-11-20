@@ -1,0 +1,137 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.images {
+    padding: 2px;
+}
+
+.images .image {
+    position: relative;
+    float: left;
+    margin: 2px;
+    width: 128px;
+    height: 128px;
+    cursor: pointer;
+    background: #000;
+    -webkit-animation: small 0.5s ease-in-out both;
+    animation: small 0.5s ease-in-out both;
+    transition: transform 0.5s ease-in-out, z-index 0s linear 0.5s;
+}
+
+.images .image.active {
+    -webkit-animation: big 0.5s ease-in-out both;
+    animation: big 0.5s ease-in-out both;
+}
+
+.images .image img {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.images .image.away img {
+    opacity: 0;
+}
+
+.images .image-1 {
+    transform-origin: 0% 0%;
+}
+
+.images .image-2 {
+    transform-origin: 50% 0%;
+}
+
+.images .image-3 {
+    transform-origin: 100% 0%;
+}
+
+.images .image-4 {
+    transform-origin: 0% 50%;
+}
+
+.images .image-5 {
+    transform-origin: 50% 50%;
+}
+
+.images .image-6 {
+    transform-origin: 100% 50%;
+}
+
+.images .image-7 {
+    transform-origin: 0% 100%;
+}
+
+.images .image-8 {
+    transform-origin: 50% 100%;
+}
+
+.images .image-9 {
+    transform-origin: 100% 100%;
+}
+
+@-webkit-keyframes big {
+    0%,
+    1% {
+        transform: scale(1);
+        z-index: 2;
+    }
+    100% {
+        z-index: 2;
+        transform: scale(3.0625);
+    }
+}
+
+@keyframes big {
+    0%,
+    1% {
+        transform: scale(1);
+        z-index: 2;
+    }
+    100% {
+        z-index: 2;
+        transform: scale(3.0625);
+    }
+}
+
+@-webkit-keyframes small {
+    0% {
+        transform: scale(3.0625);
+        z-index: 2;
+    }
+    99% {
+        z-index: 2;
+        transform: scale(1);
+    }
+    100% {
+        z-index: 1;
+    }
+}
+
+@keyframes small {
+    0% {
+        transform: scale(3.0625);
+        z-index: 2;
+    }
+    99% {
+        z-index: 2;
+        transform: scale(1);
+    }
+    100% {
+        z-index: 1;
+    }
+}

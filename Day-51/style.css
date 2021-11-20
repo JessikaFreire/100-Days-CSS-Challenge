@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: #000000;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #00113f;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer {
+    background: #FFF;
+    border-radius: 5px;
+    font-size: 1.75rem;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+input#play:checked~.timer span:after {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.number-1:after {
+    content: "0";
+    -webkit-animation: timer 10000s steps(1) infinite;
+    animation: timer 10000s steps(1) infinite;
+}
+
+.number-2:after {
+    content: "0";
+    -webkit-animation: timer 1000s steps(1) infinite;
+    animation: timer 1000s steps(1) infinite;
+}
+
+.number-3:after {
+    content: "0";
+    -webkit-animation: timer 100s steps(1) infinite;
+    animation: timer 100s steps(1) infinite;
+}
+
+.number-4:after {
+    content: "0";
+    -webkit-animation: timer 10s steps(1) infinite;
+    animation: timer 10s steps(1) infinite;
+}
+
+.number-5:after {
+    content: "0";
+    -webkit-animation: timer 1s steps(1) infinite;
+    animation: timer 1s steps(1) infinite;
+}
+
+.number-6:after {
+    content: "0";
+    -webkit-animation: timer 100ms steps(1) infinite;
+    animation: timer 100ms steps(1) infinite;
+}
+
+i {
+    color: #FFF;
+}
+
+@-webkit-keyframes timer {
+    0% {
+        content: "0";
+    }
+    10% {
+        content: "1";
+    }
+    20% {
+        content: "2";
+    }
+    30% {
+        content: "3";
+    }
+    40% {
+        content: "4";
+    }
+    50% {
+        content: "5";
+    }
+    60% {
+        content: "6";
+    }
+    70% {
+        content: "7";
+    }
+    80% {
+        content: "8";
+    }
+    90% {
+        content: "9";
+    }
+    100% {
+        content: "0";
+    }
+}
+
+@keyframes timer {
+    0% {
+        content: "0";
+    }
+    10% {
+        content: "1";
+    }
+    20% {
+        content: "2";
+    }
+    30% {
+        content: "3";
+    }
+    40% {
+        content: "4";
+    }
+    50% {
+        content: "5";
+    }
+    60% {
+        content: "6";
+    }
+    70% {
+        content: "7";
+    }
+    80% {
+        content: "8";
+    }
+    90% {
+        content: "9";
+    }
+    100% {
+        content: "0";
+    }
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.play-button:after {
+    margin-top: 20px;
+    font-family: "Font Awesome 5 Free";
+    content: "";
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: absolute;
+    left: calc(50% - 0.75rem);
+}
+
+input#play:checked~.play-button:after {
+    content: "";
+    font-weight: 900;
+    position: absolute;
+}

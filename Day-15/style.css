@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(45deg, #001a3b, #0089d8);
+    color: rgb(0, 0, 0);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    background: #fff;
+}
+
+.title {
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #000000;
+}
+
+.complete-status {
+    width: 0px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    height: 3px;
+    background: #4ab610;
+}
+
+.complete-status.active {
+    -webkit-animation: complete_status 2.1s ease-in-out forwards;
+    animation: complete_status 2.1s ease-in-out forwards;
+}
+
+.file-drop {
+    width: 80px;
+    height: 80px;
+    border: 1px dashed #000000;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+    transition: display 0.1s ease-in-out;
+}
+
+.file-drop .upload {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+.file-drop .upload-remove {
+    display: none;
+}
+
+.file-drop .file_name {
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 12px;
+    display: none;
+}
+
+.file-drop .file_name_show {
+    display: block;
+}
+
+.file-drop .file-input {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.file-drop.disable {
+    display: none;
+}
+
+.upload-button {
+    display: block;
+    background: #4ab610;
+    border: none;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    color: #fff;
+    border-bottom: 2px solid #34810a;
+    transition: all 0.1s ease-in-out;
+}
+
+.upload-button:active {
+    transform: scale(0.9);
+}
+
+.syncing {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 120px;
+    left: 130px;
+    opacity: 0;
+}
+
+.syncing.active {
+    -webkit-animation: uploading 2s ease-in-out 0.1s;
+    animation: uploading 2s ease-in-out 0.1s;
+}
+
+.done {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 120px;
+    left: 130px;
+    opacity: 0;
+}
+
+.done.active {
+    -webkit-animation: done 0.1s ease-in-out 2.1s forwards;
+    animation: done 0.1s ease-in-out 2.1s forwards;
+}
+
+@-webkit-keyframes uploading {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes uploading {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes complete_status {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes complete_status {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes done {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes done {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

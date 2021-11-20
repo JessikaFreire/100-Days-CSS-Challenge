@@ -1,0 +1,267 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.frame:hover .rectangle {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #888;
+    background: #000000;
+}
+
+.rectangle-1 {
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.0333333333s alternate infinite;
+}
+
+.rectangle-2 {
+    z-index: 2;
+    width: 190px;
+    height: 190px;
+    top: 105px;
+    left: 105px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.0666666667s alternate infinite;
+}
+
+.rectangle-3 {
+    z-index: 3;
+    width: 180px;
+    height: 180px;
+    top: 110px;
+    left: 110px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.1s alternate infinite;
+    animation: rotate 2s ease-in-out 0.1s alternate infinite;
+}
+
+.rectangle-4 {
+    z-index: 4;
+    width: 170px;
+    height: 170px;
+    top: 115px;
+    left: 115px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.1333333333s alternate infinite;
+}
+
+.rectangle-5 {
+    z-index: 5;
+    width: 160px;
+    height: 160px;
+    top: 120px;
+    left: 120px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.1666666667s alternate infinite;
+}
+
+.rectangle-6 {
+    z-index: 6;
+    width: 150px;
+    height: 150px;
+    top: 125px;
+    left: 125px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.2s alternate infinite;
+    animation: rotate 2s ease-in-out 0.2s alternate infinite;
+}
+
+.rectangle-7 {
+    z-index: 7;
+    width: 140px;
+    height: 140px;
+    top: 130px;
+    left: 130px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.2333333333s alternate infinite;
+}
+
+.rectangle-8 {
+    z-index: 8;
+    width: 130px;
+    height: 130px;
+    top: 135px;
+    left: 135px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.2666666667s alternate infinite;
+}
+
+.rectangle-9 {
+    z-index: 9;
+    width: 120px;
+    height: 120px;
+    top: 140px;
+    left: 140px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.3s alternate infinite;
+    animation: rotate 2s ease-in-out 0.3s alternate infinite;
+}
+
+.rectangle-10 {
+    z-index: 10;
+    width: 110px;
+    height: 110px;
+    top: 145px;
+    left: 145px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.3333333333s alternate infinite;
+}
+
+.rectangle-11 {
+    z-index: 11;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 150px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.3666666667s alternate infinite;
+}
+
+.rectangle-12 {
+    z-index: 12;
+    width: 90px;
+    height: 90px;
+    top: 155px;
+    left: 155px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.4s alternate infinite;
+    animation: rotate 2s ease-in-out 0.4s alternate infinite;
+}
+
+.rectangle-13 {
+    z-index: 13;
+    width: 80px;
+    height: 80px;
+    top: 160px;
+    left: 160px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.4333333333s alternate infinite;
+}
+
+.rectangle-14 {
+    z-index: 14;
+    width: 70px;
+    height: 70px;
+    top: 165px;
+    left: 165px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.4666666667s alternate infinite;
+}
+
+.rectangle-15 {
+    z-index: 15;
+    width: 60px;
+    height: 60px;
+    top: 170px;
+    left: 170px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.5s alternate infinite;
+    animation: rotate 2s ease-in-out 0.5s alternate infinite;
+}
+
+.rectangle-16 {
+    z-index: 16;
+    width: 50px;
+    height: 50px;
+    top: 175px;
+    left: 175px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.5333333333s alternate infinite;
+}
+
+.rectangle-17 {
+    z-index: 17;
+    width: 40px;
+    height: 40px;
+    top: 180px;
+    left: 180px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.5666666667s alternate infinite;
+}
+
+.rectangle-18 {
+    z-index: 18;
+    width: 30px;
+    height: 30px;
+    top: 185px;
+    left: 185px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.6s alternate infinite;
+    animation: rotate 2s ease-in-out 0.6s alternate infinite;
+}
+
+.rectangle-19 {
+    z-index: 19;
+    width: 20px;
+    height: 20px;
+    top: 190px;
+    left: 190px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+    animation: rotate 2s ease-in-out 0.6333333333s alternate infinite;
+}
+
+.rectangle-20 {
+    z-index: 20;
+    width: 10px;
+    height: 10px;
+    top: 195px;
+    left: 195px;
+    border-color: #ffffff;
+    -webkit-animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+    animation: rotate 2s ease-in-out 0.6666666667s alternate infinite;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    to {
+        transform: rotate(360deg) translate3d(0, 0, 0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    to {
+        transform: rotate(360deg) translate3d(0, 0, 0);
+    }
+}

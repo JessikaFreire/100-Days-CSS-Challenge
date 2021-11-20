@@ -1,0 +1,137 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #001d38;
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.waves {
+    position: absolute;
+    height: 150px;
+    width: 500px;
+    left: -50px;
+    background: #fff;
+}
+
+.waves .wave {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    top: -24px;
+    border-radius: 50px;
+}
+
+.waves .wave:nth-child(2n+2) {
+    top: -26px;
+}
+
+.first-wave {
+    top: 225px;
+    background: #00305e;
+    -webkit-animation: first-wave 5s ease-in-out alternate infinite;
+    animation: first-wave 5s ease-in-out alternate infinite;
+}
+
+.first-wave .wave {
+    background: #00305e;
+}
+
+.first-wave .wave:nth-child(2n+2) {
+    background: #001d38;
+}
+
+.second-wave {
+    top: 280px;
+    background: #014381;
+    -webkit-animation: second-wave 5s ease-in-out alternate infinite;
+    animation: second-wave 5s ease-in-out alternate infinite;
+}
+
+.second-wave .wave {
+    background: #014381;
+}
+
+.second-wave .wave:nth-child(2n+2) {
+    background: #00305e;
+}
+
+.third-wave {
+    top: 335px;
+    background: #0056a7;
+    -webkit-animation: third-wave 5s ease-in-out alternate infinite;
+    animation: third-wave 5s ease-in-out alternate infinite;
+}
+
+.third-wave .wave {
+    background: #0056a7;
+}
+
+.third-wave .wave:nth-child(2n+2) {
+    background: #014381;
+}
+
+@-webkit-keyframes first-wave {
+    from {
+        transform: translate3d(-20px, 0, 0);
+    }
+    to {
+        transform: translate3d(20px, 0, 0);
+    }
+}
+
+@keyframes first-wave {
+    from {
+        transform: translate3d(-20px, 0, 0);
+    }
+    to {
+        transform: translate3d(20px, 0, 0);
+    }
+}
+
+@-webkit-keyframes second-wave {
+    from {
+        transform: translate3d(10px, 0, 0);
+    }
+    to {
+        transform: translate3d(-10px, 0, 0);
+    }
+}
+
+@keyframes second-wave {
+    from {
+        transform: translate3d(10px, 0, 0);
+    }
+    to {
+        transform: translate3d(-10px, 0, 0);
+    }
+}
+
+@-webkit-keyframes third-wave {
+    from {
+        transform: translate3d(-50px, 0, 0);
+    }
+    to {
+        transform: translate3d(50px, 0, 0);
+    }
+}
+
+@keyframes third-wave {
+    from {
+        transform: translate3d(-50px, 0, 0);
+    }
+    to {
+        transform: translate3d(50px, 0, 0);
+    }
+}

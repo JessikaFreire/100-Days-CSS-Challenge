@@ -1,0 +1,3098 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background: #001322;
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.warp {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+}
+
+.warp .ring {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.warp .ring .stripe {
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    top: 90px;
+    left: 99px;
+    background: #ffffff;
+}
+
+.warp .ring-1 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) 0s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) 0s infinite;
+}
+
+.warp .ring-1 .stripe-1 {
+    transform: rotate(-2.0622919939deg) translate3d(0, 78.4280718241px, 0) scaleY(0.7842807182);
+}
+
+.warp .ring-1 .stripe-2 {
+    transform: rotate(9.0860639816deg) translate3d(0, 78.0375366143px, 0) scaleY(0.7803753661);
+}
+
+.warp .ring-1 .stripe-3 {
+    transform: rotate(27.2513793635deg) translate3d(0, 66.1075137947px, 0) scaleY(0.6610751379);
+}
+
+.warp .ring-1 .stripe-4 {
+    transform: rotate(41.7664276339deg) translate3d(0, 62.6386234905px, 0) scaleY(0.6263862349);
+}
+
+.warp .ring-1 .stripe-5 {
+    transform: rotate(56.8652178683deg) translate3d(0, 75.641552043px, 0) scaleY(0.7564155204);
+}
+
+.warp .ring-1 .stripe-6 {
+    transform: rotate(73.9720036694deg) translate3d(0, 61.2717838687px, 0) scaleY(0.6127178387);
+}
+
+.warp .ring-1 .stripe-7 {
+    transform: rotate(85.1366107872deg) translate3d(0, 69.7657794607px, 0) scaleY(0.6976577946);
+}
+
+.warp .ring-1 .stripe-8 {
+    transform: rotate(102.3127721981deg) translate3d(0, 80.7304406211px, 0) scaleY(0.8073044062);
+}
+
+.warp .ring-1 .stripe-9 {
+    transform: rotate(113.9362615086deg) translate3d(0, 86.3891175995px, 0) scaleY(0.863891176);
+}
+
+.warp .ring-1 .stripe-10 {
+    transform: rotate(125.3961039023deg) translate3d(0, 95.1258085536px, 0) scaleY(0.9512580855);
+}
+
+.warp .ring-1 .stripe-11 {
+    transform: rotate(147.2303845222deg) translate3d(0, 88.020541848px, 0) scaleY(0.8802054185);
+}
+
+.warp .ring-1 .stripe-12 {
+    transform: rotate(164.5827732215deg) translate3d(0, 69.0658004637px, 0) scaleY(0.6906580046);
+}
+
+.warp .ring-1 .stripe-13 {
+    transform: rotate(173.9166746072deg) translate3d(0, 65.4588306826px, 0) scaleY(0.6545883068);
+}
+
+.warp .ring-1 .stripe-14 {
+    transform: rotate(187.2363663835deg) translate3d(0, 78.8052209408px, 0) scaleY(0.7880522094);
+}
+
+.warp .ring-1 .stripe-15 {
+    transform: rotate(200.8995452947deg) translate3d(0, 95.4144453397px, 0) scaleY(0.9541444534);
+}
+
+.warp .ring-1 .stripe-16 {
+    transform: rotate(218.3233741231deg) translate3d(0, 64.1210359473px, 0) scaleY(0.6412103595);
+}
+
+.warp .ring-1 .stripe-17 {
+    transform: rotate(235.5709830091deg) translate3d(0, 65.2438154438px, 0) scaleY(0.6524381544);
+}
+
+.warp .ring-1 .stripe-18 {
+    transform: rotate(247.3204425307deg) translate3d(0, 65.1420011068px, 0) scaleY(0.6514200111);
+}
+
+.warp .ring-1 .stripe-19 {
+    transform: rotate(267.4051791681deg) translate3d(0, 77.1095266779px, 0) scaleY(0.7710952668);
+}
+
+.warp .ring-1 .stripe-20 {
+    transform: rotate(279.4471246029deg) translate3d(0, 70.1417155827px, 0) scaleY(0.7014171558);
+}
+
+.warp .ring-1 .stripe-21 {
+    transform: rotate(296.679134133deg) translate3d(0, 86.2353762416px, 0) scaleY(0.8623537624);
+}
+
+.warp .ring-1 .stripe-22 {
+    transform: rotate(312.7207785841deg) translate3d(0, 73.38312937px, 0) scaleY(0.7338312937);
+}
+
+.warp .ring-1 .stripe-23 {
+    transform: rotate(324.6831562421deg) translate3d(0, 97.1436660419px, 0) scaleY(0.9714366604);
+}
+
+.warp .ring-1 .stripe-24 {
+    transform: rotate(335.6947661532deg) translate3d(0, 78.1305554064px, 0) scaleY(0.7813055541);
+}
+
+.warp .ring-2 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.1333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.1333333333s infinite;
+}
+
+.warp .ring-2 .stripe-1 {
+    transform: rotate(-1.99710157deg) translate3d(0, 71.8574259028px, 0) scaleY(0.718574259);
+}
+
+.warp .ring-2 .stripe-2 {
+    transform: rotate(12.2520688456deg) translate3d(0, 85.2496549097px, 0) scaleY(0.8524965491);
+}
+
+.warp .ring-2 .stripe-3 {
+    transform: rotate(21.582449685deg) translate3d(0, 64.6586645551px, 0) scaleY(0.6465866456);
+}
+
+.warp .ring-2 .stripe-4 {
+    transform: rotate(35.7837637921deg) translate3d(0, 87.8715507388px, 0) scaleY(0.8787155074);
+}
+
+.warp .ring-2 .stripe-5 {
+    transform: rotate(53.9897711298deg) translate3d(0, 61.1378666793px, 0) scaleY(0.6113786668);
+}
+
+.warp .ring-2 .stripe-6 {
+    transform: rotate(71.3814397489deg) translate3d(0, 94.2565310851px, 0) scaleY(0.9425653109);
+}
+
+.warp .ring-2 .stripe-7 {
+    transform: rotate(83.7840165724deg) translate3d(0, 98.0331327886px, 0) scaleY(0.9803313279);
+}
+
+.warp .ring-2 .stripe-8 {
+    transform: rotate(101.3520333854deg) translate3d(0, 85.4128110217px, 0) scaleY(0.8541281102);
+}
+
+.warp .ring-2 .stripe-9 {
+    transform: rotate(113.110976141deg) translate3d(0, 81.8742850676px, 0) scaleY(0.8187428507);
+}
+
+.warp .ring-2 .stripe-10 {
+    transform: rotate(131.4346683999deg) translate3d(0, 90.2750008949px, 0) scaleY(0.9027500089);
+}
+
+.warp .ring-2 .stripe-11 {
+    transform: rotate(145.3886830436deg) translate3d(0, 83.2174698318px, 0) scaleY(0.8321746983);
+}
+
+.warp .ring-2 .stripe-12 {
+    transform: rotate(164.7489838844deg) translate3d(0, 89.4070358451px, 0) scaleY(0.8940703585);
+}
+
+.warp .ring-2 .stripe-13 {
+    transform: rotate(173.1149055397deg) translate3d(0, 81.9266963673px, 0) scaleY(0.8192669637);
+}
+
+.warp .ring-2 .stripe-14 {
+    transform: rotate(186.8217282457deg) translate3d(0, 79.7965797216px, 0) scaleY(0.7979657972);
+}
+
+.warp .ring-2 .stripe-15 {
+    transform: rotate(207.4648532653deg) translate3d(0, 75.7135087155px, 0) scaleY(0.7571350872);
+}
+
+.warp .ring-2 .stripe-16 {
+    transform: rotate(223.8844823135deg) translate3d(0, 64.4010923118px, 0) scaleY(0.6440109231);
+}
+
+.warp .ring-2 .stripe-17 {
+    transform: rotate(231.2026788393deg) translate3d(0, 64.6333201813px, 0) scaleY(0.6463332018);
+}
+
+.warp .ring-2 .stripe-18 {
+    transform: rotate(245.4019566713deg) translate3d(0, 77.497424822px, 0) scaleY(0.7749742482);
+}
+
+.warp .ring-2 .stripe-19 {
+    transform: rotate(261.584069852deg) translate3d(0, 81.3796887759px, 0) scaleY(0.8137968878);
+}
+
+.warp .ring-2 .stripe-20 {
+    transform: rotate(284.7847674253deg) translate3d(0, 67.5073459247px, 0) scaleY(0.6750734592);
+}
+
+.warp .ring-2 .stripe-21 {
+    transform: rotate(290.8928936593deg) translate3d(0, 61.5612188409px, 0) scaleY(0.6156121884);
+}
+
+.warp .ring-2 .stripe-22 {
+    transform: rotate(305.8862062944deg) translate3d(0, 94.8114169275px, 0) scaleY(0.9481141693);
+}
+
+.warp .ring-2 .stripe-23 {
+    transform: rotate(325.7985058033deg) translate3d(0, 86.2730498678px, 0) scaleY(0.8627304987);
+}
+
+.warp .ring-2 .stripe-24 {
+    transform: rotate(337.5046394953deg) translate3d(0, 76.8447874131px, 0) scaleY(0.7684478741);
+}
+
+.warp .ring-3 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.2666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.2666666667s infinite;
+}
+
+.warp .ring-3 .stripe-1 {
+    transform: rotate(-3.2988394011deg) translate3d(0, 99.2477497535px, 0) scaleY(0.9924774975);
+}
+
+.warp .ring-3 .stripe-2 {
+    transform: rotate(6.9813147009deg) translate3d(0, 78.1011233606px, 0) scaleY(0.7810112336);
+}
+
+.warp .ring-3 .stripe-3 {
+    transform: rotate(26.037669893deg) translate3d(0, 85.5886820886px, 0) scaleY(0.8558868209);
+}
+
+.warp .ring-3 .stripe-4 {
+    transform: rotate(44.6712641349deg) translate3d(0, 78.8773880684px, 0) scaleY(0.7887738807);
+}
+
+.warp .ring-3 .stripe-5 {
+    transform: rotate(56.6225103358deg) translate3d(0, 96.5162769118px, 0) scaleY(0.9651627691);
+}
+
+.warp .ring-3 .stripe-6 {
+    transform: rotate(72.2949345325deg) translate3d(0, 66.1867615727px, 0) scaleY(0.6618676157);
+}
+
+.warp .ring-3 .stripe-7 {
+    transform: rotate(82.3558068699deg) translate3d(0, 72.5456198342px, 0) scaleY(0.7254561983);
+}
+
+.warp .ring-3 .stripe-8 {
+    transform: rotate(95.2502993481deg) translate3d(0, 61.0177141149px, 0) scaleY(0.6101771411);
+}
+
+.warp .ring-3 .stripe-9 {
+    transform: rotate(116.5734922457deg) translate3d(0, 87.8664734531px, 0) scaleY(0.8786647345);
+}
+
+.warp .ring-3 .stripe-10 {
+    transform: rotate(133.3255372724deg) translate3d(0, 91.4945068746px, 0) scaleY(0.9149450687);
+}
+
+.warp .ring-3 .stripe-11 {
+    transform: rotate(142.2162306344deg) translate3d(0, 73.6679807392px, 0) scaleY(0.7366798074);
+}
+
+.warp .ring-3 .stripe-12 {
+    transform: rotate(158.1421250994deg) translate3d(0, 79.4188904541px, 0) scaleY(0.7941889045);
+}
+
+.warp .ring-3 .stripe-13 {
+    transform: rotate(179.8848244256deg) translate3d(0, 77.2995443651px, 0) scaleY(0.7729954437);
+}
+
+.warp .ring-3 .stripe-14 {
+    transform: rotate(185.1961739095deg) translate3d(0, 95.1439897989px, 0) scaleY(0.951439898);
+}
+
+.warp .ring-3 .stripe-15 {
+    transform: rotate(206.0479502233deg) translate3d(0, 81.3066822274px, 0) scaleY(0.8130668223);
+}
+
+.warp .ring-3 .stripe-16 {
+    transform: rotate(222.0975922708deg) translate3d(0, 89.0005756447px, 0) scaleY(0.8900057564);
+}
+
+.warp .ring-3 .stripe-17 {
+    transform: rotate(234.6608125949deg) translate3d(0, 78.3870346275px, 0) scaleY(0.7838703463);
+}
+
+.warp .ring-3 .stripe-18 {
+    transform: rotate(245.1968193368deg) translate3d(0, 72.700042753px, 0) scaleY(0.7270004275);
+}
+
+.warp .ring-3 .stripe-19 {
+    transform: rotate(262.5420486141deg) translate3d(0, 94.0007912065px, 0) scaleY(0.9400079121);
+}
+
+.warp .ring-3 .stripe-20 {
+    transform: rotate(282.2046893163deg) translate3d(0, 70.5651921481px, 0) scaleY(0.7056519215);
+}
+
+.warp .ring-3 .stripe-21 {
+    transform: rotate(298.6807839969deg) translate3d(0, 74.5247615801px, 0) scaleY(0.7452476158);
+}
+
+.warp .ring-3 .stripe-22 {
+    transform: rotate(306.0200224337deg) translate3d(0, 66.2812879616px, 0) scaleY(0.6628128796);
+}
+
+.warp .ring-3 .stripe-23 {
+    transform: rotate(327.4110142639deg) translate3d(0, 89.3806864501px, 0) scaleY(0.8938068645);
+}
+
+.warp .ring-3 .stripe-24 {
+    transform: rotate(342.5494260598deg) translate3d(0, 67.5514923558px, 0) scaleY(0.6755149236);
+}
+
+.warp .ring-4 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.4s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.4s infinite;
+}
+
+.warp .ring-4 .stripe-1 {
+    transform: rotate(-1.9814690403deg) translate3d(0, 84.7956677625px, 0) scaleY(0.8479566776);
+}
+
+.warp .ring-4 .stripe-2 {
+    transform: rotate(8.6880921504deg) translate3d(0, 66.6622862158px, 0) scaleY(0.6666228622);
+}
+
+.warp .ring-4 .stripe-3 {
+    transform: rotate(29.1760506764deg) translate3d(0, 93.7405664996px, 0) scaleY(0.937405665);
+}
+
+.warp .ring-4 .stripe-4 {
+    transform: rotate(37.0661778214deg) translate3d(0, 68.857116117px, 0) scaleY(0.6885711612);
+}
+
+.warp .ring-4 .stripe-5 {
+    transform: rotate(54.490553282deg) translate3d(0, 64.4725827699px, 0) scaleY(0.6447258277);
+}
+
+.warp .ring-4 .stripe-6 {
+    transform: rotate(72.6505931659deg) translate3d(0, 97.9879284583px, 0) scaleY(0.9798792846);
+}
+
+.warp .ring-4 .stripe-7 {
+    transform: rotate(82.984058348deg) translate3d(0, 81.8779769872px, 0) scaleY(0.8187797699);
+}
+
+.warp .ring-4 .stripe-8 {
+    transform: rotate(98.5228018073deg) translate3d(0, 79.0912177764px, 0) scaleY(0.7909121778);
+}
+
+.warp .ring-4 .stripe-9 {
+    transform: rotate(112.610815966deg) translate3d(0, 69.8789785021px, 0) scaleY(0.698789785);
+}
+
+.warp .ring-4 .stripe-10 {
+    transform: rotate(125.0556110284deg) translate3d(0, 88.0615534135px, 0) scaleY(0.8806155341);
+}
+
+.warp .ring-4 .stripe-11 {
+    transform: rotate(147.9320025832deg) translate3d(0, 99.9945508829px, 0) scaleY(0.9999455088);
+}
+
+.warp .ring-4 .stripe-12 {
+    transform: rotate(159.9467817785deg) translate3d(0, 80.8443602233px, 0) scaleY(0.8084436022);
+}
+
+.warp .ring-4 .stripe-13 {
+    transform: rotate(176.8867156986deg) translate3d(0, 89.0326208236px, 0) scaleY(0.8903262082);
+}
+
+.warp .ring-4 .stripe-14 {
+    transform: rotate(188.2733778698deg) translate3d(0, 96.7049626px, 0) scaleY(0.967049626);
+}
+
+.warp .ring-4 .stripe-15 {
+    transform: rotate(205.4915674139deg) translate3d(0, 81.9680667777px, 0) scaleY(0.8196806678);
+}
+
+.warp .ring-4 .stripe-16 {
+    transform: rotate(217.8569515266deg) translate3d(0, 63.6933277879px, 0) scaleY(0.6369332779);
+}
+
+.warp .ring-4 .stripe-17 {
+    transform: rotate(235.2855071374deg) translate3d(0, 73.9734147395px, 0) scaleY(0.7397341474);
+}
+
+.warp .ring-4 .stripe-18 {
+    transform: rotate(247.4489787188deg) translate3d(0, 79.0357385666px, 0) scaleY(0.7903573857);
+}
+
+.warp .ring-4 .stripe-19 {
+    transform: rotate(262.5149124175deg) translate3d(0, 62.8911265691px, 0) scaleY(0.6289112657);
+}
+
+.warp .ring-4 .stripe-20 {
+    transform: rotate(284.6123901156deg) translate3d(0, 60.7011136321px, 0) scaleY(0.6070111363);
+}
+
+.warp .ring-4 .stripe-21 {
+    transform: rotate(296.432415834deg) translate3d(0, 74.9310057222px, 0) scaleY(0.7493100572);
+}
+
+.warp .ring-4 .stripe-22 {
+    transform: rotate(308.7958926443deg) translate3d(0, 61.8673517888px, 0) scaleY(0.6186735179);
+}
+
+.warp .ring-4 .stripe-23 {
+    transform: rotate(329.6313022557deg) translate3d(0, 62.0728622326px, 0) scaleY(0.6207286223);
+}
+
+.warp .ring-4 .stripe-24 {
+    transform: rotate(337.6293723987deg) translate3d(0, 75.5027428972px, 0) scaleY(0.755027429);
+}
+
+.warp .ring-5 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.5333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.5333333333s infinite;
+}
+
+.warp .ring-5 .stripe-1 {
+    transform: rotate(-7.9091986279deg) translate3d(0, 89.5906841772px, 0) scaleY(0.8959068418);
+}
+
+.warp .ring-5 .stripe-2 {
+    transform: rotate(5.7883365394deg) translate3d(0, 67.6839386676px, 0) scaleY(0.6768393867);
+}
+
+.warp .ring-5 .stripe-3 {
+    transform: rotate(22.1060409405deg) translate3d(0, 69.1794142289px, 0) scaleY(0.6917941423);
+}
+
+.warp .ring-5 .stripe-4 {
+    transform: rotate(35.7238488967deg) translate3d(0, 68.8264906698px, 0) scaleY(0.6882649067);
+}
+
+.warp .ring-5 .stripe-5 {
+    transform: rotate(53.2564258797deg) translate3d(0, 76.1940268748px, 0) scaleY(0.7619402687);
+}
+
+.warp .ring-5 .stripe-6 {
+    transform: rotate(71.0888391788deg) translate3d(0, 66.3864405611px, 0) scaleY(0.6638644056);
+}
+
+.warp .ring-5 .stripe-7 {
+    transform: rotate(87.625380326deg) translate3d(0, 98.1898323958px, 0) scaleY(0.981898324);
+}
+
+.warp .ring-5 .stripe-8 {
+    transform: rotate(97.9968896606deg) translate3d(0, 61.0928037443px, 0) scaleY(0.6109280374);
+}
+
+.warp .ring-5 .stripe-9 {
+    transform: rotate(112.3641974201deg) translate3d(0, 78.2410315043px, 0) scaleY(0.782410315);
+}
+
+.warp .ring-5 .stripe-10 {
+    transform: rotate(126.2486533609deg) translate3d(0, 69.0322250797px, 0) scaleY(0.6903222508);
+}
+
+.warp .ring-5 .stripe-11 {
+    transform: rotate(148.2942575771deg) translate3d(0, 90.1423169029px, 0) scaleY(0.901423169);
+}
+
+.warp .ring-5 .stripe-12 {
+    transform: rotate(159.3149605089deg) translate3d(0, 72.0509452443px, 0) scaleY(0.7205094524);
+}
+
+.warp .ring-5 .stripe-13 {
+    transform: rotate(177.6402459681deg) translate3d(0, 94.7826945095px, 0) scaleY(0.9478269451);
+}
+
+.warp .ring-5 .stripe-14 {
+    transform: rotate(191.1646726051deg) translate3d(0, 91.5405374519px, 0) scaleY(0.9154053745);
+}
+
+.warp .ring-5 .stripe-15 {
+    transform: rotate(203.8088982568deg) translate3d(0, 77.4170047346px, 0) scaleY(0.7741700473);
+}
+
+.warp .ring-5 .stripe-16 {
+    transform: rotate(219.9542550252deg) translate3d(0, 77.3370929726px, 0) scaleY(0.7733709297);
+}
+
+.warp .ring-5 .stripe-17 {
+    transform: rotate(232.8379349241deg) translate3d(0, 98.7695782421px, 0) scaleY(0.9876957824);
+}
+
+.warp .ring-5 .stripe-18 {
+    transform: rotate(253.5116937051deg) translate3d(0, 93.1129124725px, 0) scaleY(0.9311291247);
+}
+
+.warp .ring-5 .stripe-19 {
+    transform: rotate(262.5623977092deg) translate3d(0, 92.8926024956px, 0) scaleY(0.928926025);
+}
+
+.warp .ring-5 .stripe-20 {
+    transform: rotate(279.808908495deg) translate3d(0, 73.0268833681px, 0) scaleY(0.7302688337);
+}
+
+.warp .ring-5 .stripe-21 {
+    transform: rotate(292.8151337526deg) translate3d(0, 98.4876007941px, 0) scaleY(0.9848760079);
+}
+
+.warp .ring-5 .stripe-22 {
+    transform: rotate(309.9977281207deg) translate3d(0, 64.5003583816px, 0) scaleY(0.6450035838);
+}
+
+.warp .ring-5 .stripe-23 {
+    transform: rotate(328.510696386deg) translate3d(0, 95.0040047213px, 0) scaleY(0.9500400472);
+}
+
+.warp .ring-5 .stripe-24 {
+    transform: rotate(340.178674952deg) translate3d(0, 96.0983904042px, 0) scaleY(0.960983904);
+}
+
+.warp .ring-6 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.6666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.6666666667s infinite;
+}
+
+.warp .ring-6 .stripe-1 {
+    transform: rotate(-3.3576475453deg) translate3d(0, 79.6694405949px, 0) scaleY(0.7966944059);
+}
+
+.warp .ring-6 .stripe-2 {
+    transform: rotate(14.191874803deg) translate3d(0, 96.3119885986px, 0) scaleY(0.963119886);
+}
+
+.warp .ring-6 .stripe-3 {
+    transform: rotate(20.9815835338deg) translate3d(0, 67.9647393755px, 0) scaleY(0.6796473938);
+}
+
+.warp .ring-6 .stripe-4 {
+    transform: rotate(37.7831670747deg) translate3d(0, 90.2877229185px, 0) scaleY(0.9028772292);
+}
+
+.warp .ring-6 .stripe-5 {
+    transform: rotate(59.3357389478deg) translate3d(0, 86.0772342504px, 0) scaleY(0.8607723425);
+}
+
+.warp .ring-6 .stripe-6 {
+    transform: rotate(72.6294788312deg) translate3d(0, 89.0463993427px, 0) scaleY(0.8904639934);
+}
+
+.warp .ring-6 .stripe-7 {
+    transform: rotate(89.7778931792deg) translate3d(0, 64.0461216591px, 0) scaleY(0.6404612166);
+}
+
+.warp .ring-6 .stripe-8 {
+    transform: rotate(100.8765189565deg) translate3d(0, 73.5100381136px, 0) scaleY(0.7351003811);
+}
+
+.warp .ring-6 .stripe-9 {
+    transform: rotate(117.9853082585deg) translate3d(0, 84.0457825936px, 0) scaleY(0.8404578259);
+}
+
+.warp .ring-6 .stripe-10 {
+    transform: rotate(127.3870519407deg) translate3d(0, 93.7918373906px, 0) scaleY(0.9379183739);
+}
+
+.warp .ring-6 .stripe-11 {
+    transform: rotate(149.3468599163deg) translate3d(0, 91.5167873497px, 0) scaleY(0.9151678735);
+}
+
+.warp .ring-6 .stripe-12 {
+    transform: rotate(162.422261319deg) translate3d(0, 90.074513624px, 0) scaleY(0.9007451362);
+}
+
+.warp .ring-6 .stripe-13 {
+    transform: rotate(177.3624019522deg) translate3d(0, 96.4550620272px, 0) scaleY(0.9645506203);
+}
+
+.warp .ring-6 .stripe-14 {
+    transform: rotate(193.3923144762deg) translate3d(0, 79.9309680689px, 0) scaleY(0.7993096807);
+}
+
+.warp .ring-6 .stripe-15 {
+    transform: rotate(207.9168724415deg) translate3d(0, 90.6337477666px, 0) scaleY(0.9063374777);
+}
+
+.warp .ring-6 .stripe-16 {
+    transform: rotate(223.0901939304deg) translate3d(0, 93.7332379565px, 0) scaleY(0.9373323796);
+}
+
+.warp .ring-6 .stripe-17 {
+    transform: rotate(235.0188287993deg) translate3d(0, 79.5378253757px, 0) scaleY(0.7953782538);
+}
+
+.warp .ring-6 .stripe-18 {
+    transform: rotate(249.1326723585deg) translate3d(0, 95.3079798656px, 0) scaleY(0.9530797987);
+}
+
+.warp .ring-6 .stripe-19 {
+    transform: rotate(263.8385417317deg) translate3d(0, 68.4346664411px, 0) scaleY(0.6843466644);
+}
+
+.warp .ring-6 .stripe-20 {
+    transform: rotate(281.6983678765deg) translate3d(0, 95.2932878071px, 0) scaleY(0.9529328781);
+}
+
+.warp .ring-6 .stripe-21 {
+    transform: rotate(292.3159415444deg) translate3d(0, 89.29994222px, 0) scaleY(0.8929994222);
+}
+
+.warp .ring-6 .stripe-22 {
+    transform: rotate(312.9189849202deg) translate3d(0, 76.2020098099px, 0) scaleY(0.7620200981);
+}
+
+.warp .ring-6 .stripe-23 {
+    transform: rotate(327.3220812345deg) translate3d(0, 82.6075851222px, 0) scaleY(0.8260758512);
+}
+
+.warp .ring-6 .stripe-24 {
+    transform: rotate(344.5553226089deg) translate3d(0, 86.155296033px, 0) scaleY(0.8615529603);
+}
+
+.warp .ring-7 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.8s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.8s infinite;
+}
+
+.warp .ring-7 .stripe-1 {
+    transform: rotate(-1.2348157329deg) translate3d(0, 74.7175370658px, 0) scaleY(0.7471753707);
+}
+
+.warp .ring-7 .stripe-2 {
+    transform: rotate(13.1882855001deg) translate3d(0, 75.4262877828px, 0) scaleY(0.7542628778);
+}
+
+.warp .ring-7 .stripe-3 {
+    transform: rotate(29.5701847426deg) translate3d(0, 92.2228822091px, 0) scaleY(0.9222288221);
+}
+
+.warp .ring-7 .stripe-4 {
+    transform: rotate(42.6055300925deg) translate3d(0, 64.4833899899px, 0) scaleY(0.6448338999);
+}
+
+.warp .ring-7 .stripe-5 {
+    transform: rotate(52.4932301973deg) translate3d(0, 67.4456334276px, 0) scaleY(0.6744563343);
+}
+
+.warp .ring-7 .stripe-6 {
+    transform: rotate(74.5166893327deg) translate3d(0, 62.807487729px, 0) scaleY(0.6280748773);
+}
+
+.warp .ring-7 .stripe-7 {
+    transform: rotate(80.3020973602deg) translate3d(0, 72.7504808346px, 0) scaleY(0.7275048083);
+}
+
+.warp .ring-7 .stripe-8 {
+    transform: rotate(98.9212391791deg) translate3d(0, 95.3536310336px, 0) scaleY(0.9535363103);
+}
+
+.warp .ring-7 .stripe-9 {
+    transform: rotate(117.2553425842deg) translate3d(0, 62.3245778415px, 0) scaleY(0.6232457784);
+}
+
+.warp .ring-7 .stripe-10 {
+    transform: rotate(134.7827217224deg) translate3d(0, 91.835347667px, 0) scaleY(0.9183534767);
+}
+
+.warp .ring-7 .stripe-11 {
+    transform: rotate(148.3174246314deg) translate3d(0, 73.0583519786px, 0) scaleY(0.7305835198);
+}
+
+.warp .ring-7 .stripe-12 {
+    transform: rotate(160.6541809478deg) translate3d(0, 81.2075186264px, 0) scaleY(0.8120751863);
+}
+
+.warp .ring-7 .stripe-13 {
+    transform: rotate(172.4236579072deg) translate3d(0, 62.2335597804px, 0) scaleY(0.6223355978);
+}
+
+.warp .ring-7 .stripe-14 {
+    transform: rotate(187.3831345584deg) translate3d(0, 97.9352874242px, 0) scaleY(0.9793528742);
+}
+
+.warp .ring-7 .stripe-15 {
+    transform: rotate(207.4367799842deg) translate3d(0, 67.6627846099px, 0) scaleY(0.6766278461);
+}
+
+.warp .ring-7 .stripe-16 {
+    transform: rotate(218.1630675663deg) translate3d(0, 75.1242233691px, 0) scaleY(0.7512422337);
+}
+
+.warp .ring-7 .stripe-17 {
+    transform: rotate(234.1055088802deg) translate3d(0, 60.2020908737px, 0) scaleY(0.6020209087);
+}
+
+.warp .ring-7 .stripe-18 {
+    transform: rotate(249.808305308deg) translate3d(0, 69.127074915px, 0) scaleY(0.6912707491);
+}
+
+.warp .ring-7 .stripe-19 {
+    transform: rotate(267.9614547033deg) translate3d(0, 68.2608420572px, 0) scaleY(0.6826084206);
+}
+
+.warp .ring-7 .stripe-20 {
+    transform: rotate(276.0806981101deg) translate3d(0, 69.7356008907px, 0) scaleY(0.6973560089);
+}
+
+.warp .ring-7 .stripe-21 {
+    transform: rotate(290.0385057315deg) translate3d(0, 78.281839629px, 0) scaleY(0.7828183963);
+}
+
+.warp .ring-7 .stripe-22 {
+    transform: rotate(307.6208296255deg) translate3d(0, 69.3031568237px, 0) scaleY(0.6930315682);
+}
+
+.warp .ring-7 .stripe-23 {
+    transform: rotate(321.6310961022deg) translate3d(0, 63.1620463427px, 0) scaleY(0.6316204634);
+}
+
+.warp .ring-7 .stripe-24 {
+    transform: rotate(344.6572812078deg) translate3d(0, 92.6405145253px, 0) scaleY(0.9264051453);
+}
+
+.warp .ring-8 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.9333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.9333333333s infinite;
+}
+
+.warp .ring-8 .stripe-1 {
+    transform: rotate(-2.035429941deg) translate3d(0, 78.5406299694px, 0) scaleY(0.7854062997);
+}
+
+.warp .ring-8 .stripe-2 {
+    transform: rotate(12.569433171deg) translate3d(0, 96.1878507049px, 0) scaleY(0.961878507);
+}
+
+.warp .ring-8 .stripe-3 {
+    transform: rotate(29.2910446756deg) translate3d(0, 88.4191582471px, 0) scaleY(0.8841915825);
+}
+
+.warp .ring-8 .stripe-4 {
+    transform: rotate(40.6907213253deg) translate3d(0, 89.6959681116px, 0) scaleY(0.8969596811);
+}
+
+.warp .ring-8 .stripe-5 {
+    transform: rotate(52.1551546539deg) translate3d(0, 69.4670824541px, 0) scaleY(0.6946708245);
+}
+
+.warp .ring-8 .stripe-6 {
+    transform: rotate(65.619439858deg) translate3d(0, 77.9150433279px, 0) scaleY(0.7791504333);
+}
+
+.warp .ring-8 .stripe-7 {
+    transform: rotate(87.6944897507deg) translate3d(0, 79.643058788px, 0) scaleY(0.7964305879);
+}
+
+.warp .ring-8 .stripe-8 {
+    transform: rotate(97.7723110885deg) translate3d(0, 68.1133520762px, 0) scaleY(0.6811335208);
+}
+
+.warp .ring-8 .stripe-9 {
+    transform: rotate(112.9389140524deg) translate3d(0, 64.3750093119px, 0) scaleY(0.6437500931);
+}
+
+.warp .ring-8 .stripe-10 {
+    transform: rotate(132.785214759deg) translate3d(0, 90.4805591747px, 0) scaleY(0.9048055917);
+}
+
+.warp .ring-8 .stripe-11 {
+    transform: rotate(140.156776835deg) translate3d(0, 99.4058874866px, 0) scaleY(0.9940588749);
+}
+
+.warp .ring-8 .stripe-12 {
+    transform: rotate(158.2257259888deg) translate3d(0, 83.9405806276px, 0) scaleY(0.8394058063);
+}
+
+.warp .ring-8 .stripe-13 {
+    transform: rotate(174.6306253474deg) translate3d(0, 64.8514177447px, 0) scaleY(0.6485141774);
+}
+
+.warp .ring-8 .stripe-14 {
+    transform: rotate(188.1604139282deg) translate3d(0, 98.3257698977px, 0) scaleY(0.983257699);
+}
+
+.warp .ring-8 .stripe-15 {
+    transform: rotate(202.9360863613deg) translate3d(0, 70.1439788371px, 0) scaleY(0.7014397884);
+}
+
+.warp .ring-8 .stripe-16 {
+    transform: rotate(215.8263480702deg) translate3d(0, 80.1657366065px, 0) scaleY(0.8016573661);
+}
+
+.warp .ring-8 .stripe-17 {
+    transform: rotate(232.8642373987deg) translate3d(0, 70.0381021168px, 0) scaleY(0.7003810212);
+}
+
+.warp .ring-8 .stripe-18 {
+    transform: rotate(249.2549238081deg) translate3d(0, 61.0503026902px, 0) scaleY(0.6105030269);
+}
+
+.warp .ring-8 .stripe-19 {
+    transform: rotate(261.7746293235deg) translate3d(0, 85.4982508203px, 0) scaleY(0.8549825082);
+}
+
+.warp .ring-8 .stripe-20 {
+    transform: rotate(282.4507180022deg) translate3d(0, 91.9111601695px, 0) scaleY(0.9191116017);
+}
+
+.warp .ring-8 .stripe-21 {
+    transform: rotate(296.6822493329deg) translate3d(0, 88.7684338168px, 0) scaleY(0.8876843382);
+}
+
+.warp .ring-8 .stripe-22 {
+    transform: rotate(307.78384557deg) translate3d(0, 78.048283828px, 0) scaleY(0.7804828383);
+}
+
+.warp .ring-8 .stripe-23 {
+    transform: rotate(321.6146313111deg) translate3d(0, 83.9834293169px, 0) scaleY(0.8398342932);
+}
+
+.warp .ring-8 .stripe-24 {
+    transform: rotate(342.4373391637deg) translate3d(0, 76.1724764812px, 0) scaleY(0.7617247648);
+}
+
+.warp .ring-9 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.0666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.0666666667s infinite;
+}
+
+.warp .ring-9 .stripe-1 {
+    transform: rotate(-3.5003276085deg) translate3d(0, 82.2116608283px, 0) scaleY(0.8221166083);
+}
+
+.warp .ring-9 .stripe-2 {
+    transform: rotate(13.0797172659deg) translate3d(0, 77.8114838466px, 0) scaleY(0.7781148385);
+}
+
+.warp .ring-9 .stripe-3 {
+    transform: rotate(24.097417128deg) translate3d(0, 63.4480724771px, 0) scaleY(0.6344807248);
+}
+
+.warp .ring-9 .stripe-4 {
+    transform: rotate(37.7434431195deg) translate3d(0, 98.7706366686px, 0) scaleY(0.9877063667);
+}
+
+.warp .ring-9 .stripe-5 {
+    transform: rotate(52.7591915737deg) translate3d(0, 81.5575440949px, 0) scaleY(0.8155754409);
+}
+
+.warp .ring-9 .stripe-6 {
+    transform: rotate(72.5574294395deg) translate3d(0, 78.7641610995px, 0) scaleY(0.787641611);
+}
+
+.warp .ring-9 .stripe-7 {
+    transform: rotate(81.4700666222deg) translate3d(0, 76.9844239733px, 0) scaleY(0.7698442397);
+}
+
+.warp .ring-9 .stripe-8 {
+    transform: rotate(101.6608904328deg) translate3d(0, 67.2568630599px, 0) scaleY(0.6725686306);
+}
+
+.warp .ring-9 .stripe-9 {
+    transform: rotate(111.4057390653deg) translate3d(0, 64.7497243722px, 0) scaleY(0.6474972437);
+}
+
+.warp .ring-9 .stripe-10 {
+    transform: rotate(128.7532937315deg) translate3d(0, 92.2263208089px, 0) scaleY(0.9222632081);
+}
+
+.warp .ring-9 .stripe-11 {
+    transform: rotate(149.5881814051deg) translate3d(0, 86.3646112232px, 0) scaleY(0.8636461122);
+}
+
+.warp .ring-9 .stripe-12 {
+    transform: rotate(160.7420274999deg) translate3d(0, 83.4003525119px, 0) scaleY(0.8340035251);
+}
+
+.warp .ring-9 .stripe-13 {
+    transform: rotate(179.9922063105deg) translate3d(0, 62.1410979179px, 0) scaleY(0.6214109792);
+}
+
+.warp .ring-9 .stripe-14 {
+    transform: rotate(189.871780637deg) translate3d(0, 63.265500609px, 0) scaleY(0.6326550061);
+}
+
+.warp .ring-9 .stripe-15 {
+    transform: rotate(206.7246637624deg) translate3d(0, 95.9005491553px, 0) scaleY(0.9590054916);
+}
+
+.warp .ring-9 .stripe-16 {
+    transform: rotate(219.4764218216deg) translate3d(0, 64.1852288574px, 0) scaleY(0.6418522886);
+}
+
+.warp .ring-9 .stripe-17 {
+    transform: rotate(237.8843134084deg) translate3d(0, 60.4107771827px, 0) scaleY(0.6041077718);
+}
+
+.warp .ring-9 .stripe-18 {
+    transform: rotate(248.1187302075deg) translate3d(0, 81.0457292626px, 0) scaleY(0.8104572926);
+}
+
+.warp .ring-9 .stripe-19 {
+    transform: rotate(264.7888554969deg) translate3d(0, 62.024624148px, 0) scaleY(0.6202462415);
+}
+
+.warp .ring-9 .stripe-20 {
+    transform: rotate(277.8368625833deg) translate3d(0, 66.2305361788px, 0) scaleY(0.6623053618);
+}
+
+.warp .ring-9 .stripe-21 {
+    transform: rotate(294.0044287153deg) translate3d(0, 61.6247925394px, 0) scaleY(0.6162479254);
+}
+
+.warp .ring-9 .stripe-22 {
+    transform: rotate(305.3537732553deg) translate3d(0, 71.0633632536px, 0) scaleY(0.7106336325);
+}
+
+.warp .ring-9 .stripe-23 {
+    transform: rotate(323.8638807588deg) translate3d(0, 71.8643986035px, 0) scaleY(0.718643986);
+}
+
+.warp .ring-9 .stripe-24 {
+    transform: rotate(343.6175126437deg) translate3d(0, 64.8687599291px, 0) scaleY(0.6486875993);
+}
+
+.warp .ring-10 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.2s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.2s infinite;
+}
+
+.warp .ring-10 .stripe-1 {
+    transform: rotate(-0.385328506deg) translate3d(0, 88.9240939479px, 0) scaleY(0.8892409395);
+}
+
+.warp .ring-10 .stripe-2 {
+    transform: rotate(11.566527991deg) translate3d(0, 99.3941636886px, 0) scaleY(0.9939416369);
+}
+
+.warp .ring-10 .stripe-3 {
+    transform: rotate(26.8462984465deg) translate3d(0, 67.0603291452px, 0) scaleY(0.6706032915);
+}
+
+.warp .ring-10 .stripe-4 {
+    transform: rotate(39.8198960454deg) translate3d(0, 75.2325111553px, 0) scaleY(0.7523251116);
+}
+
+.warp .ring-10 .stripe-5 {
+    transform: rotate(52.3445281604deg) translate3d(0, 68.339773003px, 0) scaleY(0.68339773);
+}
+
+.warp .ring-10 .stripe-6 {
+    transform: rotate(66.4691775789deg) translate3d(0, 64.0064891021px, 0) scaleY(0.640064891);
+}
+
+.warp .ring-10 .stripe-7 {
+    transform: rotate(87.8601224522deg) translate3d(0, 83.3798528105px, 0) scaleY(0.8337985281);
+}
+
+.warp .ring-10 .stripe-8 {
+    transform: rotate(102.8617705922deg) translate3d(0, 80.0797118652px, 0) scaleY(0.8007971187);
+}
+
+.warp .ring-10 .stripe-9 {
+    transform: rotate(118.6871504091deg) translate3d(0, 83.5902373774px, 0) scaleY(0.8359023738);
+}
+
+.warp .ring-10 .stripe-10 {
+    transform: rotate(131.11841882deg) translate3d(0, 91.4590162874px, 0) scaleY(0.9145901629);
+}
+
+.warp .ring-10 .stripe-11 {
+    transform: rotate(147.2707997146deg) translate3d(0, 61.49749789px, 0) scaleY(0.6149749789);
+}
+
+.warp .ring-10 .stripe-12 {
+    transform: rotate(162.1577878105deg) translate3d(0, 93.5137622846px, 0) scaleY(0.9351376228);
+}
+
+.warp .ring-10 .stripe-13 {
+    transform: rotate(179.7681700707deg) translate3d(0, 78.3318171579px, 0) scaleY(0.7833181716);
+}
+
+.warp .ring-10 .stripe-14 {
+    transform: rotate(193.8126103161deg) translate3d(0, 66.084244602px, 0) scaleY(0.660842446);
+}
+
+.warp .ring-10 .stripe-15 {
+    transform: rotate(207.7775828463deg) translate3d(0, 70.4365335094px, 0) scaleY(0.7043653351);
+}
+
+.warp .ring-10 .stripe-16 {
+    transform: rotate(222.3889190633deg) translate3d(0, 65.4875017888px, 0) scaleY(0.6548750179);
+}
+
+.warp .ring-10 .stripe-17 {
+    transform: rotate(233.5162768888deg) translate3d(0, 97.1339443784px, 0) scaleY(0.9713394438);
+}
+
+.warp .ring-10 .stripe-18 {
+    transform: rotate(254.9023200281deg) translate3d(0, 79.004452201px, 0) scaleY(0.790044522);
+}
+
+.warp .ring-10 .stripe-19 {
+    transform: rotate(269.3523150648deg) translate3d(0, 62.7702701151px, 0) scaleY(0.6277027012);
+}
+
+.warp .ring-10 .stripe-20 {
+    transform: rotate(284.5332451936deg) translate3d(0, 78.5220765772px, 0) scaleY(0.7852207658);
+}
+
+.warp .ring-10 .stripe-21 {
+    transform: rotate(295.5271166806deg) translate3d(0, 66.2681505439px, 0) scaleY(0.6626815054);
+}
+
+.warp .ring-10 .stripe-22 {
+    transform: rotate(305.7764712166deg) translate3d(0, 62.3283547682px, 0) scaleY(0.6232835477);
+}
+
+.warp .ring-10 .stripe-23 {
+    transform: rotate(326.7052679774deg) translate3d(0, 73.8207312081px, 0) scaleY(0.7382073121);
+}
+
+.warp .ring-10 .stripe-24 {
+    transform: rotate(342.178148581deg) translate3d(0, 63.2580804238px, 0) scaleY(0.6325808042);
+}
+
+.warp .ring-11 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.3333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.3333333333s infinite;
+}
+
+.warp .ring-11 .stripe-1 {
+    transform: rotate(-6.4043271878deg) translate3d(0, 70.4939128695px, 0) scaleY(0.7049391287);
+}
+
+.warp .ring-11 .stripe-2 {
+    transform: rotate(13.650840051deg) translate3d(0, 63.0123100383px, 0) scaleY(0.6301231004);
+}
+
+.warp .ring-11 .stripe-3 {
+    transform: rotate(24.2613481748deg) translate3d(0, 83.4686618318px, 0) scaleY(0.8346866183);
+}
+
+.warp .ring-11 .stripe-4 {
+    transform: rotate(42.5394257431deg) translate3d(0, 99.9639845108px, 0) scaleY(0.9996398451);
+}
+
+.warp .ring-11 .stripe-5 {
+    transform: rotate(54.5142462154deg) translate3d(0, 71.6631970015px, 0) scaleY(0.71663197);
+}
+
+.warp .ring-11 .stripe-6 {
+    transform: rotate(73.0827055674deg) translate3d(0, 73.5736829603px, 0) scaleY(0.7357368296);
+}
+
+.warp .ring-11 .stripe-7 {
+    transform: rotate(81.2578506178deg) translate3d(0, 70.5738421322px, 0) scaleY(0.7057384213);
+}
+
+.warp .ring-11 .stripe-8 {
+    transform: rotate(104.5952830728deg) translate3d(0, 90.8130176708px, 0) scaleY(0.9081301767);
+}
+
+.warp .ring-11 .stripe-9 {
+    transform: rotate(115.4080002932deg) translate3d(0, 81.1337672505px, 0) scaleY(0.8113376725);
+}
+
+.warp .ring-11 .stripe-10 {
+    transform: rotate(130.1142797729deg) translate3d(0, 81.0446168737px, 0) scaleY(0.8104461687);
+}
+
+.warp .ring-11 .stripe-11 {
+    transform: rotate(141.7119488772deg) translate3d(0, 94.1081306441px, 0) scaleY(0.9410813064);
+}
+
+.warp .ring-11 .stripe-12 {
+    transform: rotate(157.4136405337deg) translate3d(0, 64.055593685px, 0) scaleY(0.6405559369);
+}
+
+.warp .ring-11 .stripe-13 {
+    transform: rotate(171.8186035641deg) translate3d(0, 90.3726468116px, 0) scaleY(0.9037264681);
+}
+
+.warp .ring-11 .stripe-14 {
+    transform: rotate(194.4227362267deg) translate3d(0, 74.0917466184px, 0) scaleY(0.7409174662);
+}
+
+.warp .ring-11 .stripe-15 {
+    transform: rotate(201.5438803127deg) translate3d(0, 64.7424709394px, 0) scaleY(0.6474247094);
+}
+
+.warp .ring-11 .stripe-16 {
+    transform: rotate(224.2581871038deg) translate3d(0, 66.5489401051px, 0) scaleY(0.6654894011);
+}
+
+.warp .ring-11 .stripe-17 {
+    transform: rotate(237.1349339206deg) translate3d(0, 68.2774751321px, 0) scaleY(0.6827747513);
+}
+
+.warp .ring-11 .stripe-18 {
+    transform: rotate(249.8249170241deg) translate3d(0, 70.3911354658px, 0) scaleY(0.7039113547);
+}
+
+.warp .ring-11 .stripe-19 {
+    transform: rotate(262.0299948672deg) translate3d(0, 83.5449775655px, 0) scaleY(0.8354497757);
+}
+
+.warp .ring-11 .stripe-20 {
+    transform: rotate(276.0401848406deg) translate3d(0, 72.9220959857px, 0) scaleY(0.7292209599);
+}
+
+.warp .ring-11 .stripe-21 {
+    transform: rotate(293.1486576933deg) translate3d(0, 82.2130372479px, 0) scaleY(0.8221303725);
+}
+
+.warp .ring-11 .stripe-22 {
+    transform: rotate(314.9276763786deg) translate3d(0, 91.6192253607px, 0) scaleY(0.9161922536);
+}
+
+.warp .ring-11 .stripe-23 {
+    transform: rotate(326.2033430822deg) translate3d(0, 63.1074301118px, 0) scaleY(0.6310743011);
+}
+
+.warp .ring-11 .stripe-24 {
+    transform: rotate(336.8420165722deg) translate3d(0, 60.118376255px, 0) scaleY(0.6011837625);
+}
+
+.warp .ring-12 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.4666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.4666666667s infinite;
+}
+
+.warp .ring-12 .stripe-1 {
+    transform: rotate(-6.9481757764deg) translate3d(0, 69.2801097217px, 0) scaleY(0.6928010972);
+}
+
+.warp .ring-12 .stripe-2 {
+    transform: rotate(5.3253780982deg) translate3d(0, 73.8280763723px, 0) scaleY(0.7382807637);
+}
+
+.warp .ring-12 .stripe-3 {
+    transform: rotate(24.7524230164deg) translate3d(0, 78.7217170297px, 0) scaleY(0.7872171703);
+}
+
+.warp .ring-12 .stripe-4 {
+    transform: rotate(39.8720359105deg) translate3d(0, 71.359021113px, 0) scaleY(0.7135902111);
+}
+
+.warp .ring-12 .stripe-5 {
+    transform: rotate(54.9196803809deg) translate3d(0, 86.2260593934px, 0) scaleY(0.8622605939);
+}
+
+.warp .ring-12 .stripe-6 {
+    transform: rotate(67.4982237017deg) translate3d(0, 78.2410178413px, 0) scaleY(0.7824101784);
+}
+
+.warp .ring-12 .stripe-7 {
+    transform: rotate(81.411267145deg) translate3d(0, 75.4923259919px, 0) scaleY(0.7549232599);
+}
+
+.warp .ring-12 .stripe-8 {
+    transform: rotate(102.8548175018deg) translate3d(0, 79.9849691937px, 0) scaleY(0.7998496919);
+}
+
+.warp .ring-12 .stripe-9 {
+    transform: rotate(110.7782364518deg) translate3d(0, 75.9366795989px, 0) scaleY(0.759366796);
+}
+
+.warp .ring-12 .stripe-10 {
+    transform: rotate(132.4544680406deg) translate3d(0, 89.7455903201px, 0) scaleY(0.8974559032);
+}
+
+.warp .ring-12 .stripe-11 {
+    transform: rotate(143.8057719943deg) translate3d(0, 97.98344073px, 0) scaleY(0.9798344073);
+}
+
+.warp .ring-12 .stripe-12 {
+    transform: rotate(162.9172390159deg) translate3d(0, 81.2784166332px, 0) scaleY(0.8127841663);
+}
+
+.warp .ring-12 .stripe-13 {
+    transform: rotate(172.9903387191deg) translate3d(0, 77.5698427287px, 0) scaleY(0.7756984273);
+}
+
+.warp .ring-12 .stripe-14 {
+    transform: rotate(191.5478310717deg) translate3d(0, 75.0361153091px, 0) scaleY(0.7503611531);
+}
+
+.warp .ring-12 .stripe-15 {
+    transform: rotate(207.104688179deg) translate3d(0, 88.460190909px, 0) scaleY(0.8846019091);
+}
+
+.warp .ring-12 .stripe-16 {
+    transform: rotate(217.9734298303deg) translate3d(0, 91.0248302416px, 0) scaleY(0.9102483024);
+}
+
+.warp .ring-12 .stripe-17 {
+    transform: rotate(238.7655458147deg) translate3d(0, 61.9670078978px, 0) scaleY(0.619670079);
+}
+
+.warp .ring-12 .stripe-18 {
+    transform: rotate(249.6950081367deg) translate3d(0, 82.7401474342px, 0) scaleY(0.8274014743);
+}
+
+.warp .ring-12 .stripe-19 {
+    transform: rotate(265.9976158421deg) translate3d(0, 65.5874889339px, 0) scaleY(0.6558748893);
+}
+
+.warp .ring-12 .stripe-20 {
+    transform: rotate(281.0464667644deg) translate3d(0, 97.0410387266px, 0) scaleY(0.9704103873);
+}
+
+.warp .ring-12 .stripe-21 {
+    transform: rotate(297.1762813747deg) translate3d(0, 84.8859688522px, 0) scaleY(0.8488596885);
+}
+
+.warp .ring-12 .stripe-22 {
+    transform: rotate(313.5004446951deg) translate3d(0, 88.7867060146px, 0) scaleY(0.8878670601);
+}
+
+.warp .ring-12 .stripe-23 {
+    transform: rotate(328.2283458485deg) translate3d(0, 72.0749794707px, 0) scaleY(0.7207497947);
+}
+
+.warp .ring-12 .stripe-24 {
+    transform: rotate(341.569450769deg) translate3d(0, 70.4507450698px, 0) scaleY(0.7045074507);
+}
+
+.warp .ring-13 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.6s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.6s infinite;
+}
+
+.warp .ring-13 .stripe-1 {
+    transform: rotate(-3.0001839794deg) translate3d(0, 71.459278586px, 0) scaleY(0.7145927859);
+}
+
+.warp .ring-13 .stripe-2 {
+    transform: rotate(12.2220848263deg) translate3d(0, 68.5934254278px, 0) scaleY(0.6859342543);
+}
+
+.warp .ring-13 .stripe-3 {
+    transform: rotate(22.0872159087deg) translate3d(0, 74.732740068px, 0) scaleY(0.7473274007);
+}
+
+.warp .ring-13 .stripe-4 {
+    transform: rotate(42.6137073814deg) translate3d(0, 98.258200656px, 0) scaleY(0.9825820066);
+}
+
+.warp .ring-13 .stripe-5 {
+    transform: rotate(50.5566850817deg) translate3d(0, 61.8570319043px, 0) scaleY(0.618570319);
+}
+
+.warp .ring-13 .stripe-6 {
+    transform: rotate(69.0086738652deg) translate3d(0, 61.7505350073px, 0) scaleY(0.6175053501);
+}
+
+.warp .ring-13 .stripe-7 {
+    transform: rotate(82.4766254817deg) translate3d(0, 77.1890586954px, 0) scaleY(0.771890587);
+}
+
+.warp .ring-13 .stripe-8 {
+    transform: rotate(96.9608911476deg) translate3d(0, 89.1718991399px, 0) scaleY(0.8917189914);
+}
+
+.warp .ring-13 .stripe-9 {
+    transform: rotate(117.8077186237deg) translate3d(0, 88.1503082424px, 0) scaleY(0.8815030824);
+}
+
+.warp .ring-13 .stripe-10 {
+    transform: rotate(132.4702220314deg) translate3d(0, 74.3325055351px, 0) scaleY(0.7433250554);
+}
+
+.warp .ring-13 .stripe-11 {
+    transform: rotate(145.6760941441deg) translate3d(0, 69.5402967318px, 0) scaleY(0.6954029673);
+}
+
+.warp .ring-13 .stripe-12 {
+    transform: rotate(155.9909972963deg) translate3d(0, 80.6258590546px, 0) scaleY(0.8062585905);
+}
+
+.warp .ring-13 .stripe-13 {
+    transform: rotate(179.2363063652deg) translate3d(0, 94.0496714325px, 0) scaleY(0.9404967143);
+}
+
+.warp .ring-13 .stripe-14 {
+    transform: rotate(186.592070917deg) translate3d(0, 64.0590297596px, 0) scaleY(0.6405902976);
+}
+
+.warp .ring-13 .stripe-15 {
+    transform: rotate(203.8090571424deg) translate3d(0, 77.5416874672px, 0) scaleY(0.7754168747);
+}
+
+.warp .ring-13 .stripe-16 {
+    transform: rotate(224.9760769102deg) translate3d(0, 76.0738528868px, 0) scaleY(0.7607385289);
+}
+
+.warp .ring-13 .stripe-17 {
+    transform: rotate(234.0335758287deg) translate3d(0, 81.8735024741px, 0) scaleY(0.8187350247);
+}
+
+.warp .ring-13 .stripe-18 {
+    transform: rotate(254.663849972deg) translate3d(0, 74.8980015434px, 0) scaleY(0.7489800154);
+}
+
+.warp .ring-13 .stripe-19 {
+    transform: rotate(269.6180340441deg) translate3d(0, 66.3073025296px, 0) scaleY(0.6630730253);
+}
+
+.warp .ring-13 .stripe-20 {
+    transform: rotate(275.27086609deg) translate3d(0, 76.554804787px, 0) scaleY(0.7655480479);
+}
+
+.warp .ring-13 .stripe-21 {
+    transform: rotate(292.2641373743deg) translate3d(0, 84.8693520482px, 0) scaleY(0.8486935205);
+}
+
+.warp .ring-13 .stripe-22 {
+    transform: rotate(306.4304026765deg) translate3d(0, 98.530654898px, 0) scaleY(0.985306549);
+}
+
+.warp .ring-13 .stripe-23 {
+    transform: rotate(326.4522152809deg) translate3d(0, 98.493467203px, 0) scaleY(0.984934672);
+}
+
+.warp .ring-13 .stripe-24 {
+    transform: rotate(343.4897487929deg) translate3d(0, 61.6553652208px, 0) scaleY(0.6165536522);
+}
+
+.warp .ring-14 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.7333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.7333333333s infinite;
+}
+
+.warp .ring-14 .stripe-1 {
+    transform: rotate(-0.0441243804deg) translate3d(0, 66.1936369253px, 0) scaleY(0.6619363693);
+}
+
+.warp .ring-14 .stripe-2 {
+    transform: rotate(6.0449256915deg) translate3d(0, 80.6148304862px, 0) scaleY(0.8061483049);
+}
+
+.warp .ring-14 .stripe-3 {
+    transform: rotate(29.8597402139deg) translate3d(0, 64.4300910351px, 0) scaleY(0.6443009104);
+}
+
+.warp .ring-14 .stripe-4 {
+    transform: rotate(40.6106769592deg) translate3d(0, 77.2317152721px, 0) scaleY(0.7723171527);
+}
+
+.warp .ring-14 .stripe-5 {
+    transform: rotate(53.4286050976deg) translate3d(0, 99.7623269041px, 0) scaleY(0.997623269);
+}
+
+.warp .ring-14 .stripe-6 {
+    transform: rotate(67.7974440147deg) translate3d(0, 98.6059781237px, 0) scaleY(0.9860597812);
+}
+
+.warp .ring-14 .stripe-7 {
+    transform: rotate(80.601809632deg) translate3d(0, 64.6004978877px, 0) scaleY(0.6460049789);
+}
+
+.warp .ring-14 .stripe-8 {
+    transform: rotate(104.6003039082deg) translate3d(0, 74.4165752794px, 0) scaleY(0.7441657528);
+}
+
+.warp .ring-14 .stripe-9 {
+    transform: rotate(110.2383862955deg) translate3d(0, 94.9239583847px, 0) scaleY(0.9492395838);
+}
+
+.warp .ring-14 .stripe-10 {
+    transform: rotate(126.629978657deg) translate3d(0, 96.7738370144px, 0) scaleY(0.9677383701);
+}
+
+.warp .ring-14 .stripe-11 {
+    transform: rotate(144.2631312999deg) translate3d(0, 60.9282273193px, 0) scaleY(0.6092822732);
+}
+
+.warp .ring-14 .stripe-12 {
+    transform: rotate(159.5902894724deg) translate3d(0, 78.0863636785px, 0) scaleY(0.7808636368);
+}
+
+.warp .ring-14 .stripe-13 {
+    transform: rotate(172.5115323915deg) translate3d(0, 61.7107497947px, 0) scaleY(0.6171074979);
+}
+
+.warp .ring-14 .stripe-14 {
+    transform: rotate(191.5703372664deg) translate3d(0, 66.0179918702px, 0) scaleY(0.6601799187);
+}
+
+.warp .ring-14 .stripe-15 {
+    transform: rotate(204.5907023979deg) translate3d(0, 70.4697820049px, 0) scaleY(0.70469782);
+}
+
+.warp .ring-14 .stripe-16 {
+    transform: rotate(216.197202343deg) translate3d(0, 91.3212012468px, 0) scaleY(0.9132120125);
+}
+
+.warp .ring-14 .stripe-17 {
+    transform: rotate(232.9092354008deg) translate3d(0, 83.0314974677px, 0) scaleY(0.8303149747);
+}
+
+.warp .ring-14 .stripe-18 {
+    transform: rotate(251.2617241513deg) translate3d(0, 91.51967429px, 0) scaleY(0.9151967429);
+}
+
+.warp .ring-14 .stripe-19 {
+    transform: rotate(263.6712058195deg) translate3d(0, 72.2338337305px, 0) scaleY(0.7223383373);
+}
+
+.warp .ring-14 .stripe-20 {
+    transform: rotate(282.0247650582deg) translate3d(0, 66.9230170483px, 0) scaleY(0.6692301705);
+}
+
+.warp .ring-14 .stripe-21 {
+    transform: rotate(296.9045144943deg) translate3d(0, 72.7398016872px, 0) scaleY(0.7273980169);
+}
+
+.warp .ring-14 .stripe-22 {
+    transform: rotate(308.1107264474deg) translate3d(0, 89.2867341836px, 0) scaleY(0.8928673418);
+}
+
+.warp .ring-14 .stripe-23 {
+    transform: rotate(324.1174592908deg) translate3d(0, 78.4461615519px, 0) scaleY(0.7844616155);
+}
+
+.warp .ring-14 .stripe-24 {
+    transform: rotate(335.0933675981deg) translate3d(0, 71.8148564151px, 0) scaleY(0.7181485642);
+}
+
+.warp .ring-15 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.8666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.8666666667s infinite;
+}
+
+.warp .ring-15 .stripe-1 {
+    transform: rotate(-1.7568365426deg) translate3d(0, 72.1249244776px, 0) scaleY(0.7212492448);
+}
+
+.warp .ring-15 .stripe-2 {
+    transform: rotate(10.2507629618deg) translate3d(0, 67.589426294px, 0) scaleY(0.6758942629);
+}
+
+.warp .ring-15 .stripe-3 {
+    transform: rotate(25.1654149293deg) translate3d(0, 70.8334636467px, 0) scaleY(0.7083346365);
+}
+
+.warp .ring-15 .stripe-4 {
+    transform: rotate(37.0731405713deg) translate3d(0, 77.4453006182px, 0) scaleY(0.7744530062);
+}
+
+.warp .ring-15 .stripe-5 {
+    transform: rotate(54.1467826131deg) translate3d(0, 60.5967805304px, 0) scaleY(0.6059678053);
+}
+
+.warp .ring-15 .stripe-6 {
+    transform: rotate(69.0235335301deg) translate3d(0, 66.7334038641px, 0) scaleY(0.6673340386);
+}
+
+.warp .ring-15 .stripe-7 {
+    transform: rotate(80.1693475339deg) translate3d(0, 69.2397595925px, 0) scaleY(0.6923975959);
+}
+
+.warp .ring-15 .stripe-8 {
+    transform: rotate(102.8851247227deg) translate3d(0, 77.1322567993px, 0) scaleY(0.771322568);
+}
+
+.warp .ring-15 .stripe-9 {
+    transform: rotate(118.7889697651deg) translate3d(0, 84.0411678623px, 0) scaleY(0.8404116786);
+}
+
+.warp .ring-15 .stripe-10 {
+    transform: rotate(125.9570382719deg) translate3d(0, 84.9326354417px, 0) scaleY(0.8493263544);
+}
+
+.warp .ring-15 .stripe-11 {
+    transform: rotate(149.540773971deg) translate3d(0, 67.5368296065px, 0) scaleY(0.6753682961);
+}
+
+.warp .ring-15 .stripe-12 {
+    transform: rotate(161.5020369868deg) translate3d(0, 90.5994933149px, 0) scaleY(0.9059949331);
+}
+
+.warp .ring-15 .stripe-13 {
+    transform: rotate(171.9724771901deg) translate3d(0, 95.5400726823px, 0) scaleY(0.9554007268);
+}
+
+.warp .ring-15 .stripe-14 {
+    transform: rotate(186.6813869942deg) translate3d(0, 70.8976852711px, 0) scaleY(0.7089768527);
+}
+
+.warp .ring-15 .stripe-15 {
+    transform: rotate(209.8985205405deg) translate3d(0, 60.048917712px, 0) scaleY(0.6004891771);
+}
+
+.warp .ring-15 .stripe-16 {
+    transform: rotate(217.0015856917deg) translate3d(0, 72.0580344118px, 0) scaleY(0.7205803441);
+}
+
+.warp .ring-15 .stripe-17 {
+    transform: rotate(238.861332738deg) translate3d(0, 98.6937249831px, 0) scaleY(0.9869372498);
+}
+
+.warp .ring-15 .stripe-18 {
+    transform: rotate(248.6190454343deg) translate3d(0, 68.4628656259px, 0) scaleY(0.6846286563);
+}
+
+.warp .ring-15 .stripe-19 {
+    transform: rotate(263.1538592538deg) translate3d(0, 88.2472408835px, 0) scaleY(0.8824724088);
+}
+
+.warp .ring-15 .stripe-20 {
+    transform: rotate(280.6041541735deg) translate3d(0, 90.8160826348px, 0) scaleY(0.9081608263);
+}
+
+.warp .ring-15 .stripe-21 {
+    transform: rotate(296.7170786231deg) translate3d(0, 86.1675834005px, 0) scaleY(0.861675834);
+}
+
+.warp .ring-15 .stripe-22 {
+    transform: rotate(313.9699983842deg) translate3d(0, 73.9903313961px, 0) scaleY(0.739903314);
+}
+
+.warp .ring-15 .stripe-23 {
+    transform: rotate(324.285197911deg) translate3d(0, 98.2826291881px, 0) scaleY(0.9828262919);
+}
+
+.warp .ring-15 .stripe-24 {
+    transform: rotate(344.24263401deg) translate3d(0, 95.133386528px, 0) scaleY(0.9513338653);
+}
+
+.warp .ring-16 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2s infinite;
+}
+
+.warp .ring-16 .stripe-1 {
+    transform: rotate(-9.8288003607deg) translate3d(0, 78.2582457428px, 0) scaleY(0.7825824574);
+}
+
+.warp .ring-16 .stripe-2 {
+    transform: rotate(14.2070763779deg) translate3d(0, 75.4362904374px, 0) scaleY(0.7543629044);
+}
+
+.warp .ring-16 .stripe-3 {
+    transform: rotate(24.8133330692deg) translate3d(0, 64.9370681724px, 0) scaleY(0.6493706817);
+}
+
+.warp .ring-16 .stripe-4 {
+    transform: rotate(35.8027889429deg) translate3d(0, 81.2377703089px, 0) scaleY(0.8123777031);
+}
+
+.warp .ring-16 .stripe-5 {
+    transform: rotate(56.9626923106deg) translate3d(0, 97.4914208581px, 0) scaleY(0.9749142086);
+}
+
+.warp .ring-16 .stripe-6 {
+    transform: rotate(70.8713941959deg) translate3d(0, 62.1720885023px, 0) scaleY(0.621720885);
+}
+
+.warp .ring-16 .stripe-7 {
+    transform: rotate(84.9253417106deg) translate3d(0, 97.9068576307px, 0) scaleY(0.9790685763);
+}
+
+.warp .ring-16 .stripe-8 {
+    transform: rotate(100.2881259521deg) translate3d(0, 79.0476895372px, 0) scaleY(0.7904768954);
+}
+
+.warp .ring-16 .stripe-9 {
+    transform: rotate(113.2333946966deg) translate3d(0, 71.4644282887px, 0) scaleY(0.7146442829);
+}
+
+.warp .ring-16 .stripe-10 {
+    transform: rotate(131.3304944926deg) translate3d(0, 69.9452774491px, 0) scaleY(0.6994527745);
+}
+
+.warp .ring-16 .stripe-11 {
+    transform: rotate(148.383955021deg) translate3d(0, 72.703058594px, 0) scaleY(0.7270305859);
+}
+
+.warp .ring-16 .stripe-12 {
+    transform: rotate(163.1742373208deg) translate3d(0, 75.6683812616px, 0) scaleY(0.7566838126);
+}
+
+.warp .ring-16 .stripe-13 {
+    transform: rotate(176.2787003404deg) translate3d(0, 89.0904018711px, 0) scaleY(0.8909040187);
+}
+
+.warp .ring-16 .stripe-14 {
+    transform: rotate(193.0354364535deg) translate3d(0, 80.1400854147px, 0) scaleY(0.8014008541);
+}
+
+.warp .ring-16 .stripe-15 {
+    transform: rotate(204.876235549deg) translate3d(0, 89.8557094721px, 0) scaleY(0.8985570947);
+}
+
+.warp .ring-16 .stripe-16 {
+    transform: rotate(220.6742857853deg) translate3d(0, 96.0365474768px, 0) scaleY(0.9603654748);
+}
+
+.warp .ring-16 .stripe-17 {
+    transform: rotate(234.68401843deg) translate3d(0, 99.9833470612px, 0) scaleY(0.9998334706);
+}
+
+.warp .ring-16 .stripe-18 {
+    transform: rotate(254.057453424deg) translate3d(0, 79.4207995855px, 0) scaleY(0.7942079959);
+}
+
+.warp .ring-16 .stripe-19 {
+    transform: rotate(268.9652469617deg) translate3d(0, 83.4034431222px, 0) scaleY(0.8340344312);
+}
+
+.warp .ring-16 .stripe-20 {
+    transform: rotate(281.2468442712deg) translate3d(0, 64.5065864802px, 0) scaleY(0.6450658648);
+}
+
+.warp .ring-16 .stripe-21 {
+    transform: rotate(297.346813764deg) translate3d(0, 91.0458718758px, 0) scaleY(0.9104587188);
+}
+
+.warp .ring-16 .stripe-22 {
+    transform: rotate(310.8277057008deg) translate3d(0, 91.4226746327px, 0) scaleY(0.9142267463);
+}
+
+.warp .ring-16 .stripe-23 {
+    transform: rotate(327.7374053225deg) translate3d(0, 79.2140647193px, 0) scaleY(0.7921406472);
+}
+
+.warp .ring-16 .stripe-24 {
+    transform: rotate(336.8387838983deg) translate3d(0, 70.7946664555px, 0) scaleY(0.7079466646);
+}
+
+.warp .ring-17 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.1333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.1333333333s infinite;
+}
+
+.warp .ring-17 .stripe-1 {
+    transform: rotate(-5.7296601918deg) translate3d(0, 95.7364040064px, 0) scaleY(0.9573640401);
+}
+
+.warp .ring-17 .stripe-2 {
+    transform: rotate(6.9201299866deg) translate3d(0, 80.0743292361px, 0) scaleY(0.8007432924);
+}
+
+.warp .ring-17 .stripe-3 {
+    transform: rotate(20.7008831275deg) translate3d(0, 84.8738924609px, 0) scaleY(0.8487389246);
+}
+
+.warp .ring-17 .stripe-4 {
+    transform: rotate(35.1727841298deg) translate3d(0, 85.4239499088px, 0) scaleY(0.8542394991);
+}
+
+.warp .ring-17 .stripe-5 {
+    transform: rotate(55.2009408289deg) translate3d(0, 96.3080042839px, 0) scaleY(0.9630800428);
+}
+
+.warp .ring-17 .stripe-6 {
+    transform: rotate(68.0892605843deg) translate3d(0, 93.1843737328px, 0) scaleY(0.9318437373);
+}
+
+.warp .ring-17 .stripe-7 {
+    transform: rotate(83.8817425656deg) translate3d(0, 79.9240162531px, 0) scaleY(0.7992401625);
+}
+
+.warp .ring-17 .stripe-8 {
+    transform: rotate(100.0723402433deg) translate3d(0, 62.9512617264px, 0) scaleY(0.6295126173);
+}
+
+.warp .ring-17 .stripe-9 {
+    transform: rotate(119.9713417618deg) translate3d(0, 81.9939410306px, 0) scaleY(0.8199394103);
+}
+
+.warp .ring-17 .stripe-10 {
+    transform: rotate(132.2968103666deg) translate3d(0, 76.1765745835px, 0) scaleY(0.7617657458);
+}
+
+.warp .ring-17 .stripe-11 {
+    transform: rotate(143.1092904043deg) translate3d(0, 82.7595584824px, 0) scaleY(0.8275955848);
+}
+
+.warp .ring-17 .stripe-12 {
+    transform: rotate(161.1164846663deg) translate3d(0, 67.3219993849px, 0) scaleY(0.6732199938);
+}
+
+.warp .ring-17 .stripe-13 {
+    transform: rotate(173.4390417626deg) translate3d(0, 67.3977444865px, 0) scaleY(0.6739774449);
+}
+
+.warp .ring-17 .stripe-14 {
+    transform: rotate(190.6280877871deg) translate3d(0, 76.4204457998px, 0) scaleY(0.764204458);
+}
+
+.warp .ring-17 .stripe-15 {
+    transform: rotate(208.2003899517deg) translate3d(0, 92.5484570937px, 0) scaleY(0.9254845709);
+}
+
+.warp .ring-17 .stripe-16 {
+    transform: rotate(224.4757061458deg) translate3d(0, 82.6230135077px, 0) scaleY(0.8262301351);
+}
+
+.warp .ring-17 .stripe-17 {
+    transform: rotate(231.2570206135deg) translate3d(0, 68.6894713832px, 0) scaleY(0.6868947138);
+}
+
+.warp .ring-17 .stripe-18 {
+    transform: rotate(253.5142118681deg) translate3d(0, 91.3108939443px, 0) scaleY(0.9131089394);
+}
+
+.warp .ring-17 .stripe-19 {
+    transform: rotate(268.1889381221deg) translate3d(0, 76.7350774688px, 0) scaleY(0.7673507747);
+}
+
+.warp .ring-17 .stripe-20 {
+    transform: rotate(275.1926971591deg) translate3d(0, 99.9519400198px, 0) scaleY(0.9995194002);
+}
+
+.warp .ring-17 .stripe-21 {
+    transform: rotate(290.749863734deg) translate3d(0, 98.5267536096px, 0) scaleY(0.9852675361);
+}
+
+.warp .ring-17 .stripe-22 {
+    transform: rotate(311.1246275495deg) translate3d(0, 88.4890391516px, 0) scaleY(0.8848903915);
+}
+
+.warp .ring-17 .stripe-23 {
+    transform: rotate(329.2946539631deg) translate3d(0, 67.1334205059px, 0) scaleY(0.6713342051);
+}
+
+.warp .ring-17 .stripe-24 {
+    transform: rotate(340.271917946deg) translate3d(0, 94.1156592279px, 0) scaleY(0.9411565923);
+}
+
+.warp .ring-18 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.2666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.2666666667s infinite;
+}
+
+.warp .ring-18 .stripe-1 {
+    transform: rotate(-1.0699234814deg) translate3d(0, 72.7142813079px, 0) scaleY(0.7271428131);
+}
+
+.warp .ring-18 .stripe-2 {
+    transform: rotate(5.7826864275deg) translate3d(0, 60.8726831919px, 0) scaleY(0.6087268319);
+}
+
+.warp .ring-18 .stripe-3 {
+    transform: rotate(29.390319544deg) translate3d(0, 82.7906986965px, 0) scaleY(0.827906987);
+}
+
+.warp .ring-18 .stripe-4 {
+    transform: rotate(41.9228537202deg) translate3d(0, 96.5415237225px, 0) scaleY(0.9654152372);
+}
+
+.warp .ring-18 .stripe-5 {
+    transform: rotate(53.3727739506deg) translate3d(0, 87.3080146264px, 0) scaleY(0.8730801463);
+}
+
+.warp .ring-18 .stripe-6 {
+    transform: rotate(73.7531750928deg) translate3d(0, 72.7231839233px, 0) scaleY(0.7272318392);
+}
+
+.warp .ring-18 .stripe-7 {
+    transform: rotate(80.8949316453deg) translate3d(0, 92.002227609px, 0) scaleY(0.9200222761);
+}
+
+.warp .ring-18 .stripe-8 {
+    transform: rotate(95.5586654167deg) translate3d(0, 87.1031244372px, 0) scaleY(0.8710312444);
+}
+
+.warp .ring-18 .stripe-9 {
+    transform: rotate(117.4536654081deg) translate3d(0, 71.4288290003px, 0) scaleY(0.71428829);
+}
+
+.warp .ring-18 .stripe-10 {
+    transform: rotate(127.3412561521deg) translate3d(0, 91.026209516px, 0) scaleY(0.9102620952);
+}
+
+.warp .ring-18 .stripe-11 {
+    transform: rotate(146.9159206507deg) translate3d(0, 70.9159675861px, 0) scaleY(0.7091596759);
+}
+
+.warp .ring-18 .stripe-12 {
+    transform: rotate(156.2041351181deg) translate3d(0, 60.0714486985px, 0) scaleY(0.600714487);
+}
+
+.warp .ring-18 .stripe-13 {
+    transform: rotate(172.8897863685deg) translate3d(0, 83.2887004982px, 0) scaleY(0.832887005);
+}
+
+.warp .ring-18 .stripe-14 {
+    transform: rotate(194.9796014509deg) translate3d(0, 78.6124004981px, 0) scaleY(0.786124005);
+}
+
+.warp .ring-18 .stripe-15 {
+    transform: rotate(204.1739856264deg) translate3d(0, 94.9704440687px, 0) scaleY(0.9497044407);
+}
+
+.warp .ring-18 .stripe-16 {
+    transform: rotate(215.0396238077deg) translate3d(0, 92.9003438206px, 0) scaleY(0.9290034382);
+}
+
+.warp .ring-18 .stripe-17 {
+    transform: rotate(232.9241547646deg) translate3d(0, 84.4452083047px, 0) scaleY(0.844452083);
+}
+
+.warp .ring-18 .stripe-18 {
+    transform: rotate(245.3693380423deg) translate3d(0, 88.8888705547px, 0) scaleY(0.8888887055);
+}
+
+.warp .ring-18 .stripe-19 {
+    transform: rotate(267.6764049236deg) translate3d(0, 73.9824906628px, 0) scaleY(0.7398249066);
+}
+
+.warp .ring-18 .stripe-20 {
+    transform: rotate(281.446615862deg) translate3d(0, 93.5372163147px, 0) scaleY(0.9353721631);
+}
+
+.warp .ring-18 .stripe-21 {
+    transform: rotate(294.3615397536deg) translate3d(0, 97.5499754488px, 0) scaleY(0.9754997545);
+}
+
+.warp .ring-18 .stripe-22 {
+    transform: rotate(308.7136801026deg) translate3d(0, 91.4803356776px, 0) scaleY(0.9148033568);
+}
+
+.warp .ring-18 .stripe-23 {
+    transform: rotate(326.048773679deg) translate3d(0, 99.1521923345px, 0) scaleY(0.9915219233);
+}
+
+.warp .ring-18 .stripe-24 {
+    transform: rotate(341.7868296021deg) translate3d(0, 80.7843289758px, 0) scaleY(0.8078432898);
+}
+
+.warp .ring-19 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.4s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.4s infinite;
+}
+
+.warp .ring-19 .stripe-1 {
+    transform: rotate(-1.1879590074deg) translate3d(0, 95.6458929278px, 0) scaleY(0.9564589293);
+}
+
+.warp .ring-19 .stripe-2 {
+    transform: rotate(13.205282338deg) translate3d(0, 71.1481510771px, 0) scaleY(0.7114815108);
+}
+
+.warp .ring-19 .stripe-3 {
+    transform: rotate(28.1004070839deg) translate3d(0, 65.590124554px, 0) scaleY(0.6559012455);
+}
+
+.warp .ring-19 .stripe-4 {
+    transform: rotate(44.8695512155deg) translate3d(0, 83.809913654px, 0) scaleY(0.8380991365);
+}
+
+.warp .ring-19 .stripe-5 {
+    transform: rotate(58.2153936072deg) translate3d(0, 81.2064119945px, 0) scaleY(0.8120641199);
+}
+
+.warp .ring-19 .stripe-6 {
+    transform: rotate(66.0861030725deg) translate3d(0, 79.1886828848px, 0) scaleY(0.7918868288);
+}
+
+.warp .ring-19 .stripe-7 {
+    transform: rotate(83.6046013845deg) translate3d(0, 82.342489759px, 0) scaleY(0.8234248976);
+}
+
+.warp .ring-19 .stripe-8 {
+    transform: rotate(101.3131584558deg) translate3d(0, 87.1520846435px, 0) scaleY(0.8715208464);
+}
+
+.warp .ring-19 .stripe-9 {
+    transform: rotate(112.2010352739deg) translate3d(0, 69.5062359042px, 0) scaleY(0.695062359);
+}
+
+.warp .ring-19 .stripe-10 {
+    transform: rotate(128.6228151221deg) translate3d(0, 99.7599162427px, 0) scaleY(0.9975991624);
+}
+
+.warp .ring-19 .stripe-11 {
+    transform: rotate(141.425566904deg) translate3d(0, 81.8717810596px, 0) scaleY(0.8187178106);
+}
+
+.warp .ring-19 .stripe-12 {
+    transform: rotate(163.4399926159deg) translate3d(0, 62.6099725808px, 0) scaleY(0.6260997258);
+}
+
+.warp .ring-19 .stripe-13 {
+    transform: rotate(177.8713236385deg) translate3d(0, 65.9758163618px, 0) scaleY(0.6597581636);
+}
+
+.warp .ring-19 .stripe-14 {
+    transform: rotate(192.0952816971deg) translate3d(0, 93.3948218517px, 0) scaleY(0.9339482185);
+}
+
+.warp .ring-19 .stripe-15 {
+    transform: rotate(209.7366804348deg) translate3d(0, 83.8656902465px, 0) scaleY(0.8386569025);
+}
+
+.warp .ring-19 .stripe-16 {
+    transform: rotate(222.5039660872deg) translate3d(0, 74.5533043296px, 0) scaleY(0.7455330433);
+}
+
+.warp .ring-19 .stripe-17 {
+    transform: rotate(232.1571281886deg) translate3d(0, 79.6072129143px, 0) scaleY(0.7960721291);
+}
+
+.warp .ring-19 .stripe-18 {
+    transform: rotate(245.1601538244deg) translate3d(0, 97.9739960109px, 0) scaleY(0.9797399601);
+}
+
+.warp .ring-19 .stripe-19 {
+    transform: rotate(263.7961414376deg) translate3d(0, 68.6622262614px, 0) scaleY(0.6866222626);
+}
+
+.warp .ring-19 .stripe-20 {
+    transform: rotate(277.5332690672deg) translate3d(0, 96.6335457314px, 0) scaleY(0.9663354573);
+}
+
+.warp .ring-19 .stripe-21 {
+    transform: rotate(298.915402117deg) translate3d(0, 83.4246765059px, 0) scaleY(0.8342467651);
+}
+
+.warp .ring-19 .stripe-22 {
+    transform: rotate(312.8800674142deg) translate3d(0, 60.6205785569px, 0) scaleY(0.6062057856);
+}
+
+.warp .ring-19 .stripe-23 {
+    transform: rotate(320.1907043507deg) translate3d(0, 69.5667456626px, 0) scaleY(0.6956674566);
+}
+
+.warp .ring-19 .stripe-24 {
+    transform: rotate(344.8522022998deg) translate3d(0, 90.0647660938px, 0) scaleY(0.9006476609);
+}
+
+.warp .ring-20 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.5333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.5333333333s infinite;
+}
+
+.warp .ring-20 .stripe-1 {
+    transform: rotate(-0.702870643deg) translate3d(0, 89.8306320529px, 0) scaleY(0.8983063205);
+}
+
+.warp .ring-20 .stripe-2 {
+    transform: rotate(5.3429712217deg) translate3d(0, 70.6749426602px, 0) scaleY(0.7067494266);
+}
+
+.warp .ring-20 .stripe-3 {
+    transform: rotate(27.3964973061deg) translate3d(0, 88.652422133px, 0) scaleY(0.8865242213);
+}
+
+.warp .ring-20 .stripe-4 {
+    transform: rotate(42.0812979146deg) translate3d(0, 82.558006827px, 0) scaleY(0.8255800683);
+}
+
+.warp .ring-20 .stripe-5 {
+    transform: rotate(56.6587956732deg) translate3d(0, 73.4321631063px, 0) scaleY(0.7343216311);
+}
+
+.warp .ring-20 .stripe-6 {
+    transform: rotate(65.789953553deg) translate3d(0, 87.0546614223px, 0) scaleY(0.8705466142);
+}
+
+.warp .ring-20 .stripe-7 {
+    transform: rotate(83.1172347507deg) translate3d(0, 85.144682544px, 0) scaleY(0.8514468254);
+}
+
+.warp .ring-20 .stripe-8 {
+    transform: rotate(102.0732863616deg) translate3d(0, 83.3105887087px, 0) scaleY(0.8331058871);
+}
+
+.warp .ring-20 .stripe-9 {
+    transform: rotate(112.8476536945deg) translate3d(0, 99.5693605245px, 0) scaleY(0.9956936052);
+}
+
+.warp .ring-20 .stripe-10 {
+    transform: rotate(125.7982920258deg) translate3d(0, 67.097008448px, 0) scaleY(0.6709700845);
+}
+
+.warp .ring-20 .stripe-11 {
+    transform: rotate(145.9643585439deg) translate3d(0, 67.1070175031px, 0) scaleY(0.671070175);
+}
+
+.warp .ring-20 .stripe-12 {
+    transform: rotate(157.9864227306deg) translate3d(0, 88.0868772307px, 0) scaleY(0.8808687723);
+}
+
+.warp .ring-20 .stripe-13 {
+    transform: rotate(171.4809632299deg) translate3d(0, 66.1024179772px, 0) scaleY(0.6610241798);
+}
+
+.warp .ring-20 .stripe-14 {
+    transform: rotate(194.6949568976deg) translate3d(0, 83.8370955226px, 0) scaleY(0.8383709552);
+}
+
+.warp .ring-20 .stripe-15 {
+    transform: rotate(203.6502902876deg) translate3d(0, 66.3065343392px, 0) scaleY(0.6630653434);
+}
+
+.warp .ring-20 .stripe-16 {
+    transform: rotate(222.1294629183deg) translate3d(0, 83.8360788868px, 0) scaleY(0.8383607889);
+}
+
+.warp .ring-20 .stripe-17 {
+    transform: rotate(233.2250114128deg) translate3d(0, 66.5973427151px, 0) scaleY(0.6659734272);
+}
+
+.warp .ring-20 .stripe-18 {
+    transform: rotate(250.5972286018deg) translate3d(0, 78.1589131152px, 0) scaleY(0.7815891312);
+}
+
+.warp .ring-20 .stripe-19 {
+    transform: rotate(263.8061694984deg) translate3d(0, 88.9166859732px, 0) scaleY(0.8891668597);
+}
+
+.warp .ring-20 .stripe-20 {
+    transform: rotate(282.7128373864deg) translate3d(0, 98.6515937536px, 0) scaleY(0.9865159375);
+}
+
+.warp .ring-20 .stripe-21 {
+    transform: rotate(298.038055508deg) translate3d(0, 90.7628445555px, 0) scaleY(0.9076284456);
+}
+
+.warp .ring-20 .stripe-22 {
+    transform: rotate(314.6675503093deg) translate3d(0, 64.9920951639px, 0) scaleY(0.6499209516);
+}
+
+.warp .ring-20 .stripe-23 {
+    transform: rotate(325.202459437deg) translate3d(0, 66.6159182282px, 0) scaleY(0.6661591823);
+}
+
+.warp .ring-20 .stripe-24 {
+    transform: rotate(341.6303421147deg) translate3d(0, 94.0116232004px, 0) scaleY(0.940116232);
+}
+
+.warp .ring-21 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.6666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.6666666667s infinite;
+}
+
+.warp .ring-21 .stripe-1 {
+    transform: rotate(-1.5721425701deg) translate3d(0, 66.780654983px, 0) scaleY(0.6678065498);
+}
+
+.warp .ring-21 .stripe-2 {
+    transform: rotate(12.899906767deg) translate3d(0, 99.847494675px, 0) scaleY(0.9984749467);
+}
+
+.warp .ring-21 .stripe-3 {
+    transform: rotate(22.3222693251deg) translate3d(0, 80.4044283626px, 0) scaleY(0.8040442836);
+}
+
+.warp .ring-21 .stripe-4 {
+    transform: rotate(39.042338427deg) translate3d(0, 88.7238749109px, 0) scaleY(0.8872387491);
+}
+
+.warp .ring-21 .stripe-5 {
+    transform: rotate(58.6126747402deg) translate3d(0, 97.0998321458px, 0) scaleY(0.9709983215);
+}
+
+.warp .ring-21 .stripe-6 {
+    transform: rotate(73.5985635554deg) translate3d(0, 79.9009021555px, 0) scaleY(0.7990090216);
+}
+
+.warp .ring-21 .stripe-7 {
+    transform: rotate(88.3524951656deg) translate3d(0, 78.3931300039px, 0) scaleY(0.7839313);
+}
+
+.warp .ring-21 .stripe-8 {
+    transform: rotate(104.5190423216deg) translate3d(0, 62.1477708818px, 0) scaleY(0.6214777088);
+}
+
+.warp .ring-21 .stripe-9 {
+    transform: rotate(117.1560299607deg) translate3d(0, 66.7735449286px, 0) scaleY(0.6677354493);
+}
+
+.warp .ring-21 .stripe-10 {
+    transform: rotate(125.0220825257deg) translate3d(0, 80.328588101px, 0) scaleY(0.803285881);
+}
+
+.warp .ring-21 .stripe-11 {
+    transform: rotate(145.61324156deg) translate3d(0, 72.8584173544px, 0) scaleY(0.7285841735);
+}
+
+.warp .ring-21 .stripe-12 {
+    transform: rotate(158.9159422137deg) translate3d(0, 80.3611480695px, 0) scaleY(0.8036114807);
+}
+
+.warp .ring-21 .stripe-13 {
+    transform: rotate(179.459334536deg) translate3d(0, 64.7481525516px, 0) scaleY(0.6474815255);
+}
+
+.warp .ring-21 .stripe-14 {
+    transform: rotate(188.21314032deg) translate3d(0, 89.5513169001px, 0) scaleY(0.895513169);
+}
+
+.warp .ring-21 .stripe-15 {
+    transform: rotate(204.7759717046deg) translate3d(0, 93.8669507282px, 0) scaleY(0.9386695073);
+}
+
+.warp .ring-21 .stripe-16 {
+    transform: rotate(220.7843419909deg) translate3d(0, 65.1507181481px, 0) scaleY(0.6515071815);
+}
+
+.warp .ring-21 .stripe-17 {
+    transform: rotate(238.4090609329deg) translate3d(0, 78.1126646204px, 0) scaleY(0.7811266462);
+}
+
+.warp .ring-21 .stripe-18 {
+    transform: rotate(245.722540316deg) translate3d(0, 70.8705172512px, 0) scaleY(0.7087051725);
+}
+
+.warp .ring-21 .stripe-19 {
+    transform: rotate(265.6057281208deg) translate3d(0, 68.2378899299px, 0) scaleY(0.6823788993);
+}
+
+.warp .ring-21 .stripe-20 {
+    transform: rotate(282.3448397364deg) translate3d(0, 62.5834835392px, 0) scaleY(0.6258348354);
+}
+
+.warp .ring-21 .stripe-21 {
+    transform: rotate(291.1400967474deg) translate3d(0, 62.8550879313px, 0) scaleY(0.6285508793);
+}
+
+.warp .ring-21 .stripe-22 {
+    transform: rotate(313.3215690718deg) translate3d(0, 92.2902562167px, 0) scaleY(0.9229025622);
+}
+
+.warp .ring-21 .stripe-23 {
+    transform: rotate(325.4035738076deg) translate3d(0, 61.9826284072px, 0) scaleY(0.6198262841);
+}
+
+.warp .ring-21 .stripe-24 {
+    transform: rotate(343.9021141011deg) translate3d(0, 99.6250109934px, 0) scaleY(0.9962501099);
+}
+
+.warp .ring-22 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.8s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.8s infinite;
+}
+
+.warp .ring-22 .stripe-1 {
+    transform: rotate(-5.898598121deg) translate3d(0, 66.7389381162px, 0) scaleY(0.6673893812);
+}
+
+.warp .ring-22 .stripe-2 {
+    transform: rotate(13.6111492238deg) translate3d(0, 68.5997057826px, 0) scaleY(0.6859970578);
+}
+
+.warp .ring-22 .stripe-3 {
+    transform: rotate(28.9201286001deg) translate3d(0, 94.4841704203px, 0) scaleY(0.9448417042);
+}
+
+.warp .ring-22 .stripe-4 {
+    transform: rotate(44.9115513314deg) translate3d(0, 71.6369214815px, 0) scaleY(0.7163692148);
+}
+
+.warp .ring-22 .stripe-5 {
+    transform: rotate(51.655673296deg) translate3d(0, 75.8382681353px, 0) scaleY(0.7583826814);
+}
+
+.warp .ring-22 .stripe-6 {
+    transform: rotate(72.9235837428deg) translate3d(0, 70.6190399148px, 0) scaleY(0.7061903991);
+}
+
+.warp .ring-22 .stripe-7 {
+    transform: rotate(89.4159132489deg) translate3d(0, 91.3344763896px, 0) scaleY(0.9133447639);
+}
+
+.warp .ring-22 .stripe-8 {
+    transform: rotate(97.4254957165deg) translate3d(0, 95.1937573647px, 0) scaleY(0.9519375736);
+}
+
+.warp .ring-22 .stripe-9 {
+    transform: rotate(112.3638139021deg) translate3d(0, 63.010959707px, 0) scaleY(0.6301095971);
+}
+
+.warp .ring-22 .stripe-10 {
+    transform: rotate(127.1068472654deg) translate3d(0, 79.9705151299px, 0) scaleY(0.7997051513);
+}
+
+.warp .ring-22 .stripe-11 {
+    transform: rotate(148.4788265051deg) translate3d(0, 60.7663283399px, 0) scaleY(0.6076632834);
+}
+
+.warp .ring-22 .stripe-12 {
+    transform: rotate(158.9082744236deg) translate3d(0, 78.9871166656px, 0) scaleY(0.7898711667);
+}
+
+.warp .ring-22 .stripe-13 {
+    transform: rotate(174.2608041005deg) translate3d(0, 96.5340011963px, 0) scaleY(0.965340012);
+}
+
+.warp .ring-22 .stripe-14 {
+    transform: rotate(189.1978896618deg) translate3d(0, 93.720829691px, 0) scaleY(0.9372082969);
+}
+
+.warp .ring-22 .stripe-15 {
+    transform: rotate(202.1207866893deg) translate3d(0, 79.1013414112px, 0) scaleY(0.7910134141);
+}
+
+.warp .ring-22 .stripe-16 {
+    transform: rotate(216.4567682243deg) translate3d(0, 68.2193641969px, 0) scaleY(0.682193642);
+}
+
+.warp .ring-22 .stripe-17 {
+    transform: rotate(230.695666497deg) translate3d(0, 80.3985826478px, 0) scaleY(0.8039858265);
+}
+
+.warp .ring-22 .stripe-18 {
+    transform: rotate(250.303481079deg) translate3d(0, 60.5162806298px, 0) scaleY(0.6051628063);
+}
+
+.warp .ring-22 .stripe-19 {
+    transform: rotate(264.230619219deg) translate3d(0, 98.9318328043px, 0) scaleY(0.989318328);
+}
+
+.warp .ring-22 .stripe-20 {
+    transform: rotate(280.0666039951deg) translate3d(0, 78.8526069928px, 0) scaleY(0.7885260699);
+}
+
+.warp .ring-22 .stripe-21 {
+    transform: rotate(294.9479854064deg) translate3d(0, 81.4299081383px, 0) scaleY(0.8142990814);
+}
+
+.warp .ring-22 .stripe-22 {
+    transform: rotate(305.5045429029deg) translate3d(0, 91.8336636701px, 0) scaleY(0.9183366367);
+}
+
+.warp .ring-22 .stripe-23 {
+    transform: rotate(324.9211964835deg) translate3d(0, 73.4500691087px, 0) scaleY(0.7345006911);
+}
+
+.warp .ring-22 .stripe-24 {
+    transform: rotate(335.4112724069deg) translate3d(0, 87.4290750499px, 0) scaleY(0.8742907505);
+}
+
+.warp .ring-23 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.9333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.9333333333s infinite;
+}
+
+.warp .ring-23 .stripe-1 {
+    transform: rotate(-7.7483205601deg) translate3d(0, 61.5428961681px, 0) scaleY(0.6154289617);
+}
+
+.warp .ring-23 .stripe-2 {
+    transform: rotate(13.0752180335deg) translate3d(0, 92.6950235749px, 0) scaleY(0.9269502357);
+}
+
+.warp .ring-23 .stripe-3 {
+    transform: rotate(22.8138279807deg) translate3d(0, 65.3274018238px, 0) scaleY(0.6532740182);
+}
+
+.warp .ring-23 .stripe-4 {
+    transform: rotate(44.9399169254deg) translate3d(0, 69.904783899px, 0) scaleY(0.699047839);
+}
+
+.warp .ring-23 .stripe-5 {
+    transform: rotate(56.9383075348deg) translate3d(0, 70.629663325px, 0) scaleY(0.7062966332);
+}
+
+.warp .ring-23 .stripe-6 {
+    transform: rotate(66.358165573deg) translate3d(0, 97.6508083985px, 0) scaleY(0.976508084);
+}
+
+.warp .ring-23 .stripe-7 {
+    transform: rotate(81.3668867286deg) translate3d(0, 87.1505738586px, 0) scaleY(0.8715057386);
+}
+
+.warp .ring-23 .stripe-8 {
+    transform: rotate(101.6403012266deg) translate3d(0, 96.6540582577px, 0) scaleY(0.9665405826);
+}
+
+.warp .ring-23 .stripe-9 {
+    transform: rotate(111.7269001465deg) translate3d(0, 95.4321435588px, 0) scaleY(0.9543214356);
+}
+
+.warp .ring-23 .stripe-10 {
+    transform: rotate(127.2583519611deg) translate3d(0, 79.6535988206px, 0) scaleY(0.7965359882);
+}
+
+.warp .ring-23 .stripe-11 {
+    transform: rotate(143.8811518676deg) translate3d(0, 76.2653449194px, 0) scaleY(0.7626534492);
+}
+
+.warp .ring-23 .stripe-12 {
+    transform: rotate(162.6722796249deg) translate3d(0, 82.4648472244px, 0) scaleY(0.8246484722);
+}
+
+.warp .ring-23 .stripe-13 {
+    transform: rotate(178.4296826851deg) translate3d(0, 81.9406031139px, 0) scaleY(0.8194060311);
+}
+
+.warp .ring-23 .stripe-14 {
+    transform: rotate(188.6048203994deg) translate3d(0, 71.7286965898px, 0) scaleY(0.7172869659);
+}
+
+.warp .ring-23 .stripe-15 {
+    transform: rotate(201.6882938839deg) translate3d(0, 80.1729092898px, 0) scaleY(0.8017290929);
+}
+
+.warp .ring-23 .stripe-16 {
+    transform: rotate(218.0661083275deg) translate3d(0, 76.2525724934px, 0) scaleY(0.7625257249);
+}
+
+.warp .ring-23 .stripe-17 {
+    transform: rotate(232.9517134304deg) translate3d(0, 86.6815275152px, 0) scaleY(0.8668152752);
+}
+
+.warp .ring-23 .stripe-18 {
+    transform: rotate(249.76679167deg) translate3d(0, 62.1872546124px, 0) scaleY(0.6218725461);
+}
+
+.warp .ring-23 .stripe-19 {
+    transform: rotate(265.1769649574deg) translate3d(0, 84.8757932527px, 0) scaleY(0.8487579325);
+}
+
+.warp .ring-23 .stripe-20 {
+    transform: rotate(282.6174783938deg) translate3d(0, 92.3304560588px, 0) scaleY(0.9233045606);
+}
+
+.warp .ring-23 .stripe-21 {
+    transform: rotate(299.2461031924deg) translate3d(0, 92.1469221379px, 0) scaleY(0.9214692214);
+}
+
+.warp .ring-23 .stripe-22 {
+    transform: rotate(311.2196120242deg) translate3d(0, 71.7553235881px, 0) scaleY(0.7175532359);
+}
+
+.warp .ring-23 .stripe-23 {
+    transform: rotate(323.142093307deg) translate3d(0, 90.7903091841px, 0) scaleY(0.9079030918);
+}
+
+.warp .ring-23 .stripe-24 {
+    transform: rotate(336.0761433001deg) translate3d(0, 75.5479673082px, 0) scaleY(0.7554796731);
+}
+
+.warp .ring-24 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.0666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.0666666667s infinite;
+}
+
+.warp .ring-24 .stripe-1 {
+    transform: rotate(-7.2143280542deg) translate3d(0, 91.317082659px, 0) scaleY(0.9131708266);
+}
+
+.warp .ring-24 .stripe-2 {
+    transform: rotate(13.0491165489deg) translate3d(0, 78.6007870897px, 0) scaleY(0.7860078709);
+}
+
+.warp .ring-24 .stripe-3 {
+    transform: rotate(26.9302748846deg) translate3d(0, 94.126566991px, 0) scaleY(0.9412656699);
+}
+
+.warp .ring-24 .stripe-4 {
+    transform: rotate(40.7642882581deg) translate3d(0, 60.0678578646px, 0) scaleY(0.6006785786);
+}
+
+.warp .ring-24 .stripe-5 {
+    transform: rotate(58.68919292deg) translate3d(0, 95.282722735px, 0) scaleY(0.9528272273);
+}
+
+.warp .ring-24 .stripe-6 {
+    transform: rotate(68.0959968369deg) translate3d(0, 73.8027733144px, 0) scaleY(0.7380277331);
+}
+
+.warp .ring-24 .stripe-7 {
+    transform: rotate(88.4586993258deg) translate3d(0, 63.3955895423px, 0) scaleY(0.6339558954);
+}
+
+.warp .ring-24 .stripe-8 {
+    transform: rotate(102.1224315027deg) translate3d(0, 94.8855386467px, 0) scaleY(0.9488553865);
+}
+
+.warp .ring-24 .stripe-9 {
+    transform: rotate(115.8581997391deg) translate3d(0, 99.711667486px, 0) scaleY(0.9971166749);
+}
+
+.warp .ring-24 .stripe-10 {
+    transform: rotate(132.2080644475deg) translate3d(0, 74.5670470878px, 0) scaleY(0.7456704709);
+}
+
+.warp .ring-24 .stripe-11 {
+    transform: rotate(142.2069918011deg) translate3d(0, 67.9290893828px, 0) scaleY(0.6792908938);
+}
+
+.warp .ring-24 .stripe-12 {
+    transform: rotate(162.8479054432deg) translate3d(0, 72.6075988733px, 0) scaleY(0.7260759887);
+}
+
+.warp .ring-24 .stripe-13 {
+    transform: rotate(170.5443066254deg) translate3d(0, 73.896416369px, 0) scaleY(0.7389641637);
+}
+
+.warp .ring-24 .stripe-14 {
+    transform: rotate(190.5762405751deg) translate3d(0, 79.7063159785px, 0) scaleY(0.7970631598);
+}
+
+.warp .ring-24 .stripe-15 {
+    transform: rotate(209.5241258941deg) translate3d(0, 78.1962266578px, 0) scaleY(0.7819622666);
+}
+
+.warp .ring-24 .stripe-16 {
+    transform: rotate(224.5557729636deg) translate3d(0, 89.469626202px, 0) scaleY(0.894696262);
+}
+
+.warp .ring-24 .stripe-17 {
+    transform: rotate(232.8845901602deg) translate3d(0, 68.8711519381px, 0) scaleY(0.6887115194);
+}
+
+.warp .ring-24 .stripe-18 {
+    transform: rotate(248.9533891433deg) translate3d(0, 75.1228192177px, 0) scaleY(0.7512281922);
+}
+
+.warp .ring-24 .stripe-19 {
+    transform: rotate(260.7795151407deg) translate3d(0, 76.9306486116px, 0) scaleY(0.7693064861);
+}
+
+.warp .ring-24 .stripe-20 {
+    transform: rotate(284.6402466403deg) translate3d(0, 82.1281885392px, 0) scaleY(0.8212818854);
+}
+
+.warp .ring-24 .stripe-21 {
+    transform: rotate(297.2348426438deg) translate3d(0, 83.087636883px, 0) scaleY(0.8308763688);
+}
+
+.warp .ring-24 .stripe-22 {
+    transform: rotate(312.3063759299deg) translate3d(0, 64.8319831883px, 0) scaleY(0.6483198319);
+}
+
+.warp .ring-24 .stripe-23 {
+    transform: rotate(326.7286247713deg) translate3d(0, 62.7703570909px, 0) scaleY(0.6277035709);
+}
+
+.warp .ring-24 .stripe-24 {
+    transform: rotate(341.1357123146deg) translate3d(0, 64.1325782259px, 0) scaleY(0.6413257823);
+}
+
+.warp .ring-25 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.2s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.2s infinite;
+}
+
+.warp .ring-25 .stripe-1 {
+    transform: rotate(-3.7898108899deg) translate3d(0, 74.2556373021px, 0) scaleY(0.742556373);
+}
+
+.warp .ring-25 .stripe-2 {
+    transform: rotate(8.6160695454deg) translate3d(0, 60.6889348756px, 0) scaleY(0.6068893488);
+}
+
+.warp .ring-25 .stripe-3 {
+    transform: rotate(21.199500136deg) translate3d(0, 65.8530017037px, 0) scaleY(0.658530017);
+}
+
+.warp .ring-25 .stripe-4 {
+    transform: rotate(41.0484552204deg) translate3d(0, 92.3947583762px, 0) scaleY(0.9239475838);
+}
+
+.warp .ring-25 .stripe-5 {
+    transform: rotate(52.7255897244deg) translate3d(0, 97.8192805378px, 0) scaleY(0.9781928054);
+}
+
+.warp .ring-25 .stripe-6 {
+    transform: rotate(73.7073349054deg) translate3d(0, 87.2150548367px, 0) scaleY(0.8721505484);
+}
+
+.warp .ring-25 .stripe-7 {
+    transform: rotate(85.8375323268deg) translate3d(0, 97.3740417182px, 0) scaleY(0.9737404172);
+}
+
+.warp .ring-25 .stripe-8 {
+    transform: rotate(104.8159652178deg) translate3d(0, 69.8004370118px, 0) scaleY(0.6980043701);
+}
+
+.warp .ring-25 .stripe-9 {
+    transform: rotate(110.1828163757deg) translate3d(0, 71.9540725358px, 0) scaleY(0.7195407254);
+}
+
+.warp .ring-25 .stripe-10 {
+    transform: rotate(127.8734638299deg) translate3d(0, 65.7004631809px, 0) scaleY(0.6570046318);
+}
+
+.warp .ring-25 .stripe-11 {
+    transform: rotate(144.1003531554deg) translate3d(0, 91.2722786166px, 0) scaleY(0.9127227862);
+}
+
+.warp .ring-25 .stripe-12 {
+    transform: rotate(155.0793881736deg) translate3d(0, 70.9111197237px, 0) scaleY(0.7091111972);
+}
+
+.warp .ring-25 .stripe-13 {
+    transform: rotate(173.9338003086deg) translate3d(0, 93.4188529036px, 0) scaleY(0.934188529);
+}
+
+.warp .ring-25 .stripe-14 {
+    transform: rotate(193.4250377241deg) translate3d(0, 92.6142858504px, 0) scaleY(0.9261428585);
+}
+
+.warp .ring-25 .stripe-15 {
+    transform: rotate(200.0158930241deg) translate3d(0, 70.9226750749px, 0) scaleY(0.7092267507);
+}
+
+.warp .ring-25 .stripe-16 {
+    transform: rotate(216.7990142816deg) translate3d(0, 83.250120071px, 0) scaleY(0.8325012007);
+}
+
+.warp .ring-25 .stripe-17 {
+    transform: rotate(237.1618182116deg) translate3d(0, 86.8258921322px, 0) scaleY(0.8682589213);
+}
+
+.warp .ring-25 .stripe-18 {
+    transform: rotate(253.8674737548deg) translate3d(0, 79.7563152031px, 0) scaleY(0.797563152);
+}
+
+.warp .ring-25 .stripe-19 {
+    transform: rotate(260.3185796844deg) translate3d(0, 72.8492538094px, 0) scaleY(0.7284925381);
+}
+
+.warp .ring-25 .stripe-20 {
+    transform: rotate(281.784925322deg) translate3d(0, 90.5212583568px, 0) scaleY(0.9052125836);
+}
+
+.warp .ring-25 .stripe-21 {
+    transform: rotate(290.1975088122deg) translate3d(0, 70.4403399805px, 0) scaleY(0.7044033998);
+}
+
+.warp .ring-25 .stripe-22 {
+    transform: rotate(307.8490050345deg) translate3d(0, 66.0279330696px, 0) scaleY(0.6602793307);
+}
+
+.warp .ring-25 .stripe-23 {
+    transform: rotate(325.2490694666deg) translate3d(0, 75.3881503498px, 0) scaleY(0.7538815035);
+}
+
+.warp .ring-25 .stripe-24 {
+    transform: rotate(339.6116395868deg) translate3d(0, 78.1914345933px, 0) scaleY(0.7819143459);
+}
+
+.warp .ring-26 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.3333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.3333333333s infinite;
+}
+
+.warp .ring-26 .stripe-1 {
+    transform: rotate(-6.5185293532deg) translate3d(0, 85.0661274417px, 0) scaleY(0.8506612744);
+}
+
+.warp .ring-26 .stripe-2 {
+    transform: rotate(13.4803446118deg) translate3d(0, 78.8249131424px, 0) scaleY(0.7882491314);
+}
+
+.warp .ring-26 .stripe-3 {
+    transform: rotate(24.9514524975deg) translate3d(0, 68.6502259428px, 0) scaleY(0.6865022594);
+}
+
+.warp .ring-26 .stripe-4 {
+    transform: rotate(42.5210445541deg) translate3d(0, 85.4328787018px, 0) scaleY(0.854328787);
+}
+
+.warp .ring-26 .stripe-5 {
+    transform: rotate(54.6094453731deg) translate3d(0, 65.6143332287px, 0) scaleY(0.6561433323);
+}
+
+.warp .ring-26 .stripe-6 {
+    transform: rotate(69.5983766652deg) translate3d(0, 92.0058901927px, 0) scaleY(0.9200589019);
+}
+
+.warp .ring-26 .stripe-7 {
+    transform: rotate(82.5678418291deg) translate3d(0, 64.65131091px, 0) scaleY(0.6465131091);
+}
+
+.warp .ring-26 .stripe-8 {
+    transform: rotate(96.465944459deg) translate3d(0, 63.02618466px, 0) scaleY(0.6302618466);
+}
+
+.warp .ring-26 .stripe-9 {
+    transform: rotate(116.192056661deg) translate3d(0, 74.183937235px, 0) scaleY(0.7418393724);
+}
+
+.warp .ring-26 .stripe-10 {
+    transform: rotate(127.1859684234deg) translate3d(0, 83.9908088938px, 0) scaleY(0.8399080889);
+}
+
+.warp .ring-26 .stripe-11 {
+    transform: rotate(143.748902142deg) translate3d(0, 61.167973577px, 0) scaleY(0.6116797358);
+}
+
+.warp .ring-26 .stripe-12 {
+    transform: rotate(155.6525464936deg) translate3d(0, 66.9108954515px, 0) scaleY(0.6691089545);
+}
+
+.warp .ring-26 .stripe-13 {
+    transform: rotate(175.377616989deg) translate3d(0, 79.0227005204px, 0) scaleY(0.7902270052);
+}
+
+.warp .ring-26 .stripe-14 {
+    transform: rotate(190.3967901572deg) translate3d(0, 83.0508192019px, 0) scaleY(0.830508192);
+}
+
+.warp .ring-26 .stripe-15 {
+    transform: rotate(209.8927966388deg) translate3d(0, 67.9873839217px, 0) scaleY(0.6798738392);
+}
+
+.warp .ring-26 .stripe-16 {
+    transform: rotate(224.3424403534deg) translate3d(0, 87.3787905238px, 0) scaleY(0.8737879052);
+}
+
+.warp .ring-26 .stripe-17 {
+    transform: rotate(236.9793190518deg) translate3d(0, 69.7846297431px, 0) scaleY(0.6978462974);
+}
+
+.warp .ring-26 .stripe-18 {
+    transform: rotate(249.7591147756deg) translate3d(0, 86.7724342533px, 0) scaleY(0.8677243425);
+}
+
+.warp .ring-26 .stripe-19 {
+    transform: rotate(264.4508695563deg) translate3d(0, 85.9537082468px, 0) scaleY(0.8595370825);
+}
+
+.warp .ring-26 .stripe-20 {
+    transform: rotate(279.5351394306deg) translate3d(0, 82.8134397021px, 0) scaleY(0.828134397);
+}
+
+.warp .ring-26 .stripe-21 {
+    transform: rotate(292.8428358185deg) translate3d(0, 79.6549466412px, 0) scaleY(0.7965494664);
+}
+
+.warp .ring-26 .stripe-22 {
+    transform: rotate(308.9773183448deg) translate3d(0, 61.9696416261px, 0) scaleY(0.6196964163);
+}
+
+.warp .ring-26 .stripe-23 {
+    transform: rotate(329.5001474976deg) translate3d(0, 72.3805867011px, 0) scaleY(0.723805867);
+}
+
+.warp .ring-26 .stripe-24 {
+    transform: rotate(344.1926883969deg) translate3d(0, 89.1934364613px, 0) scaleY(0.8919343646);
+}
+
+.warp .ring-27 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.4666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.4666666667s infinite;
+}
+
+.warp .ring-27 .stripe-1 {
+    transform: rotate(-7.5285248545deg) translate3d(0, 90.4996280654px, 0) scaleY(0.9049962807);
+}
+
+.warp .ring-27 .stripe-2 {
+    transform: rotate(7.8390755512deg) translate3d(0, 81.6627155511px, 0) scaleY(0.8166271555);
+}
+
+.warp .ring-27 .stripe-3 {
+    transform: rotate(28.7646903285deg) translate3d(0, 92.1227453415px, 0) scaleY(0.9212274534);
+}
+
+.warp .ring-27 .stripe-4 {
+    transform: rotate(36.5417299579deg) translate3d(0, 84.2601593421px, 0) scaleY(0.8426015934);
+}
+
+.warp .ring-27 .stripe-5 {
+    transform: rotate(52.2104522931deg) translate3d(0, 68.0781801241px, 0) scaleY(0.6807818012);
+}
+
+.warp .ring-27 .stripe-6 {
+    transform: rotate(66.1597516836deg) translate3d(0, 93.8883579372px, 0) scaleY(0.9388835794);
+}
+
+.warp .ring-27 .stripe-7 {
+    transform: rotate(87.5706504073deg) translate3d(0, 91.6850288031px, 0) scaleY(0.916850288);
+}
+
+.warp .ring-27 .stripe-8 {
+    transform: rotate(95.9344310198deg) translate3d(0, 86.6920605098px, 0) scaleY(0.8669206051);
+}
+
+.warp .ring-27 .stripe-9 {
+    transform: rotate(116.9563988477deg) translate3d(0, 63.7996080159px, 0) scaleY(0.6379960802);
+}
+
+.warp .ring-27 .stripe-10 {
+    transform: rotate(131.4614740592deg) translate3d(0, 89.8299811652px, 0) scaleY(0.8982998117);
+}
+
+.warp .ring-27 .stripe-11 {
+    transform: rotate(142.7933040036deg) translate3d(0, 86.8896720072px, 0) scaleY(0.8688967201);
+}
+
+.warp .ring-27 .stripe-12 {
+    transform: rotate(164.1629476174deg) translate3d(0, 63.8275027407px, 0) scaleY(0.6382750274);
+}
+
+.warp .ring-27 .stripe-13 {
+    transform: rotate(176.6469637072deg) translate3d(0, 96.2444193694px, 0) scaleY(0.9624441937);
+}
+
+.warp .ring-27 .stripe-14 {
+    transform: rotate(187.1340506797deg) translate3d(0, 75.6763527962px, 0) scaleY(0.756763528);
+}
+
+.warp .ring-27 .stripe-15 {
+    transform: rotate(202.6083122186deg) translate3d(0, 60.513226555px, 0) scaleY(0.6051322656);
+}
+
+.warp .ring-27 .stripe-16 {
+    transform: rotate(222.2589341064deg) translate3d(0, 60.1746747745px, 0) scaleY(0.6017467477);
+}
+
+.warp .ring-27 .stripe-17 {
+    transform: rotate(239.7240014182deg) translate3d(0, 96.723760693px, 0) scaleY(0.9672376069);
+}
+
+.warp .ring-27 .stripe-18 {
+    transform: rotate(248.8311263788deg) translate3d(0, 89.7184996744px, 0) scaleY(0.8971849967);
+}
+
+.warp .ring-27 .stripe-19 {
+    transform: rotate(263.7263185158deg) translate3d(0, 87.8698107699px, 0) scaleY(0.8786981077);
+}
+
+.warp .ring-27 .stripe-20 {
+    transform: rotate(276.5294631973deg) translate3d(0, 60.6727762559px, 0) scaleY(0.6067277626);
+}
+
+.warp .ring-27 .stripe-21 {
+    transform: rotate(290.1675056667deg) translate3d(0, 82.2626968568px, 0) scaleY(0.8226269686);
+}
+
+.warp .ring-27 .stripe-22 {
+    transform: rotate(313.7832589761deg) translate3d(0, 72.6229889186px, 0) scaleY(0.7262298892);
+}
+
+.warp .ring-27 .stripe-23 {
+    transform: rotate(324.030946129deg) translate3d(0, 89.0742093466px, 0) scaleY(0.8907420935);
+}
+
+.warp .ring-27 .stripe-24 {
+    transform: rotate(344.1386704892deg) translate3d(0, 71.5071665039px, 0) scaleY(0.715071665);
+}
+
+.warp .ring-28 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.6s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.6s infinite;
+}
+
+.warp .ring-28 .stripe-1 {
+    transform: rotate(-4.4963096005deg) translate3d(0, 87.3347790309px, 0) scaleY(0.8733477903);
+}
+
+.warp .ring-28 .stripe-2 {
+    transform: rotate(10.580207328deg) translate3d(0, 79.2969149566px, 0) scaleY(0.7929691496);
+}
+
+.warp .ring-28 .stripe-3 {
+    transform: rotate(26.6803758515deg) translate3d(0, 96.2875406087px, 0) scaleY(0.9628754061);
+}
+
+.warp .ring-28 .stripe-4 {
+    transform: rotate(37.441440613deg) translate3d(0, 78.3958106743px, 0) scaleY(0.7839581067);
+}
+
+.warp .ring-28 .stripe-5 {
+    transform: rotate(51.1418124818deg) translate3d(0, 85.1425005378px, 0) scaleY(0.8514250054);
+}
+
+.warp .ring-28 .stripe-6 {
+    transform: rotate(74.7323655394deg) translate3d(0, 99.3511871598px, 0) scaleY(0.9935118716);
+}
+
+.warp .ring-28 .stripe-7 {
+    transform: rotate(85.4025163381deg) translate3d(0, 85.4348412137px, 0) scaleY(0.8543484121);
+}
+
+.warp .ring-28 .stripe-8 {
+    transform: rotate(100.377653459deg) translate3d(0, 86.0441392988px, 0) scaleY(0.860441393);
+}
+
+.warp .ring-28 .stripe-9 {
+    transform: rotate(118.3072948901deg) translate3d(0, 86.7244914702px, 0) scaleY(0.8672449147);
+}
+
+.warp .ring-28 .stripe-10 {
+    transform: rotate(131.0413907229deg) translate3d(0, 80.3123841506px, 0) scaleY(0.8031238415);
+}
+
+.warp .ring-28 .stripe-11 {
+    transform: rotate(147.4421588216deg) translate3d(0, 73.2824955789px, 0) scaleY(0.7328249558);
+}
+
+.warp .ring-28 .stripe-12 {
+    transform: rotate(155.2134105227deg) translate3d(0, 83.9549550932px, 0) scaleY(0.8395495509);
+}
+
+.warp .ring-28 .stripe-13 {
+    transform: rotate(174.0790721553deg) translate3d(0, 66.1446296359px, 0) scaleY(0.6614462964);
+}
+
+.warp .ring-28 .stripe-14 {
+    transform: rotate(185.072171443deg) translate3d(0, 94.7431432887px, 0) scaleY(0.9474314329);
+}
+
+.warp .ring-28 .stripe-15 {
+    transform: rotate(201.1301213795deg) translate3d(0, 84.1277737496px, 0) scaleY(0.8412777375);
+}
+
+.warp .ring-28 .stripe-16 {
+    transform: rotate(222.6416165188deg) translate3d(0, 68.5628409398px, 0) scaleY(0.6856284094);
+}
+
+.warp .ring-28 .stripe-17 {
+    transform: rotate(234.3837170102deg) translate3d(0, 83.1745209053px, 0) scaleY(0.8317452091);
+}
+
+.warp .ring-28 .stripe-18 {
+    transform: rotate(247.7770448314deg) translate3d(0, 91.3172861456px, 0) scaleY(0.9131728615);
+}
+
+.warp .ring-28 .stripe-19 {
+    transform: rotate(267.2301439178deg) translate3d(0, 88.62427369px, 0) scaleY(0.8862427369);
+}
+
+.warp .ring-28 .stripe-20 {
+    transform: rotate(275.1896845263deg) translate3d(0, 95.9291713713px, 0) scaleY(0.9592917137);
+}
+
+.warp .ring-28 .stripe-21 {
+    transform: rotate(299.0105736166deg) translate3d(0, 62.2412779714px, 0) scaleY(0.6224127797);
+}
+
+.warp .ring-28 .stripe-22 {
+    transform: rotate(308.8918420881deg) translate3d(0, 69.8292374907px, 0) scaleY(0.6982923749);
+}
+
+.warp .ring-28 .stripe-23 {
+    transform: rotate(321.4471028443deg) translate3d(0, 65.6824634983px, 0) scaleY(0.656824635);
+}
+
+.warp .ring-28 .stripe-24 {
+    transform: rotate(337.8941769162deg) translate3d(0, 82.2268403549px, 0) scaleY(0.8222684035);
+}
+
+.warp .ring-29 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.7333333333s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.7333333333s infinite;
+}
+
+.warp .ring-29 .stripe-1 {
+    transform: rotate(-5.2028468869deg) translate3d(0, 61.7187916668px, 0) scaleY(0.6171879167);
+}
+
+.warp .ring-29 .stripe-2 {
+    transform: rotate(8.2069077915deg) translate3d(0, 85.699727653px, 0) scaleY(0.8569972765);
+}
+
+.warp .ring-29 .stripe-3 {
+    transform: rotate(21.2410465004deg) translate3d(0, 97.1356726554px, 0) scaleY(0.9713567266);
+}
+
+.warp .ring-29 .stripe-4 {
+    transform: rotate(38.0525091851deg) translate3d(0, 97.9958456104px, 0) scaleY(0.9799584561);
+}
+
+.warp .ring-29 .stripe-5 {
+    transform: rotate(54.8775015549deg) translate3d(0, 78.5068987612px, 0) scaleY(0.7850689876);
+}
+
+.warp .ring-29 .stripe-6 {
+    transform: rotate(67.9572851865deg) translate3d(0, 90.3141874026px, 0) scaleY(0.903141874);
+}
+
+.warp .ring-29 .stripe-7 {
+    transform: rotate(85.933044471deg) translate3d(0, 70.881428734px, 0) scaleY(0.7088142873);
+}
+
+.warp .ring-29 .stripe-8 {
+    transform: rotate(98.4853771752deg) translate3d(0, 87.7422208218px, 0) scaleY(0.8774222082);
+}
+
+.warp .ring-29 .stripe-9 {
+    transform: rotate(111.328925033deg) translate3d(0, 60.117308795px, 0) scaleY(0.6011730879);
+}
+
+.warp .ring-29 .stripe-10 {
+    transform: rotate(131.1555151304deg) translate3d(0, 69.3855730868px, 0) scaleY(0.6938557309);
+}
+
+.warp .ring-29 .stripe-11 {
+    transform: rotate(144.5488360396deg) translate3d(0, 73.4810113603px, 0) scaleY(0.7348101136);
+}
+
+.warp .ring-29 .stripe-12 {
+    transform: rotate(161.4639133743deg) translate3d(0, 80.2187132635px, 0) scaleY(0.8021871326);
+}
+
+.warp .ring-29 .stripe-13 {
+    transform: rotate(170.6770083599deg) translate3d(0, 66.769013916px, 0) scaleY(0.6676901392);
+}
+
+.warp .ring-29 .stripe-14 {
+    transform: rotate(191.1838186249deg) translate3d(0, 75.1609669121px, 0) scaleY(0.7516096691);
+}
+
+.warp .ring-29 .stripe-15 {
+    transform: rotate(209.5304726376deg) translate3d(0, 67.2684313574px, 0) scaleY(0.6726843136);
+}
+
+.warp .ring-29 .stripe-16 {
+    transform: rotate(220.4781552935deg) translate3d(0, 85.3221722281px, 0) scaleY(0.8532217223);
+}
+
+.warp .ring-29 .stripe-17 {
+    transform: rotate(232.4938743029deg) translate3d(0, 87.0021851076px, 0) scaleY(0.8700218511);
+}
+
+.warp .ring-29 .stripe-18 {
+    transform: rotate(252.7705445193deg) translate3d(0, 67.8484454232px, 0) scaleY(0.6784844542);
+}
+
+.warp .ring-29 .stripe-19 {
+    transform: rotate(262.0659010254deg) translate3d(0, 63.9985569338px, 0) scaleY(0.6399855693);
+}
+
+.warp .ring-29 .stripe-20 {
+    transform: rotate(276.4430049362deg) translate3d(0, 75.6362362192px, 0) scaleY(0.7563623622);
+}
+
+.warp .ring-29 .stripe-21 {
+    transform: rotate(291.8387833758deg) translate3d(0, 66.6126985299px, 0) scaleY(0.6661269853);
+}
+
+.warp .ring-29 .stripe-22 {
+    transform: rotate(308.4380827833deg) translate3d(0, 67.040942368px, 0) scaleY(0.6704094237);
+}
+
+.warp .ring-29 .stripe-23 {
+    transform: rotate(320.466493167deg) translate3d(0, 87.1048727479px, 0) scaleY(0.8710487275);
+}
+
+.warp .ring-29 .stripe-24 {
+    transform: rotate(337.8169446057deg) translate3d(0, 70.448810468px, 0) scaleY(0.7044881047);
+}
+
+.warp .ring-30 {
+    -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.8666666667s infinite;
+    animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.8666666667s infinite;
+}
+
+.warp .ring-30 .stripe-1 {
+    transform: rotate(-3.4005521905deg) translate3d(0, 66.6590276229px, 0) scaleY(0.6665902762);
+}
+
+.warp .ring-30 .stripe-2 {
+    transform: rotate(6.3817407455deg) translate3d(0, 86.9870942624px, 0) scaleY(0.8698709426);
+}
+
+.warp .ring-30 .stripe-3 {
+    transform: rotate(29.5606875005deg) translate3d(0, 61.3979717639px, 0) scaleY(0.6139797176);
+}
+
+.warp .ring-30 .stripe-4 {
+    transform: rotate(36.2654154413deg) translate3d(0, 95.4604275918px, 0) scaleY(0.9546042759);
+}
+
+.warp .ring-30 .stripe-5 {
+    transform: rotate(57.467713212deg) translate3d(0, 68.4688469299px, 0) scaleY(0.6846884693);
+}
+
+.warp .ring-30 .stripe-6 {
+    transform: rotate(73.0209056518deg) translate3d(0, 94.6511512988px, 0) scaleY(0.946511513);
+}
+
+.warp .ring-30 .stripe-7 {
+    transform: rotate(82.6090722474deg) translate3d(0, 77.9782268982px, 0) scaleY(0.779782269);
+}
+
+.warp .ring-30 .stripe-8 {
+    transform: rotate(100.4491674157deg) translate3d(0, 76.7970417134px, 0) scaleY(0.7679704171);
+}
+
+.warp .ring-30 .stripe-9 {
+    transform: rotate(119.7137517221deg) translate3d(0, 76.8537409697px, 0) scaleY(0.7685374097);
+}
+
+.warp .ring-30 .stripe-10 {
+    transform: rotate(132.2245057676deg) translate3d(0, 89.4639096444px, 0) scaleY(0.8946390964);
+}
+
+.warp .ring-30 .stripe-11 {
+    transform: rotate(145.9236066239deg) translate3d(0, 60.3278037876px, 0) scaleY(0.6032780379);
+}
+
+.warp .ring-30 .stripe-12 {
+    transform: rotate(164.3737974525deg) translate3d(0, 64.6991768958px, 0) scaleY(0.646991769);
+}
+
+.warp .ring-30 .stripe-13 {
+    transform: rotate(170.2055124739deg) translate3d(0, 64.767233303px, 0) scaleY(0.647672333);
+}
+
+.warp .ring-30 .stripe-14 {
+    transform: rotate(188.1416940976deg) translate3d(0, 77.3592467589px, 0) scaleY(0.7735924676);
+}
+
+.warp .ring-30 .stripe-15 {
+    transform: rotate(204.3204936398deg) translate3d(0, 61.4144306728px, 0) scaleY(0.6141443067);
+}
+
+.warp .ring-30 .stripe-16 {
+    transform: rotate(216.4894067103deg) translate3d(0, 90.464255096px, 0) scaleY(0.904642551);
+}
+
+.warp .ring-30 .stripe-17 {
+    transform: rotate(239.6682514301deg) translate3d(0, 83.3408831273px, 0) scaleY(0.8334088313);
+}
+
+.warp .ring-30 .stripe-18 {
+    transform: rotate(251.9676838472deg) translate3d(0, 74.9984312723px, 0) scaleY(0.7499843127);
+}
+
+.warp .ring-30 .stripe-19 {
+    transform: rotate(264.5651735755deg) translate3d(0, 74.2110704144px, 0) scaleY(0.7421107041);
+}
+
+.warp .ring-30 .stripe-20 {
+    transform: rotate(278.5143557048deg) translate3d(0, 88.0387070815px, 0) scaleY(0.8803870708);
+}
+
+.warp .ring-30 .stripe-21 {
+    transform: rotate(299.0087951018deg) translate3d(0, 89.9452020243px, 0) scaleY(0.8994520202);
+}
+
+.warp .ring-30 .stripe-22 {
+    transform: rotate(311.4391224158deg) translate3d(0, 73.3042135145px, 0) scaleY(0.7330421351);
+}
+
+.warp .ring-30 .stripe-23 {
+    transform: rotate(328.7688060638deg) translate3d(0, 99.7777695547px, 0) scaleY(0.9977776955);
+}
+
+.warp .ring-30 .stripe-24 {
+    transform: rotate(342.4951156635deg) translate3d(0, 82.1160368743px, 0) scaleY(0.8211603687);
+}
+
+@-webkit-keyframes ring {
+    0% {
+        transform: scale(0);
+        opacity: 0.1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(4);
+        opacity: 1;
+    }
+}
+
+@keyframes ring {
+    0% {
+        transform: scale(0);
+        opacity: 0.1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(4);
+        opacity: 1;
+    }
+}

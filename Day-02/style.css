@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #082c5c;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.line {
+    background: #fff;
+    width: 80px;
+    height: 7px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.line+.line {
+    margin-top: 10px;
+}
+
+.active .line:nth-child(1) {
+    animation: active1 1s forwards;
+}
+
+.active .line:nth-child(3) {
+    animation: active3 forwards 1s;
+}
+
+.active .line:nth-child(2) {
+    animation: active2 forwards 1s;
+}
+
+.line:nth-child(1) {
+    animation: active1-reverse 1s forwards;
+}
+
+.line:nth-child(2) {
+    animation: active2-reverse 1s forwards;
+}
+
+.line:nth-child(3) {
+    animation: active3-reverse 1s forwards;
+}
+
+@keyframes active1 {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(17px);
+    }
+    to {
+        transform: translateY(17px) rotate(45deg);
+    }
+}
+
+@keyframes active3 {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-17px);
+    }
+    to {
+        transform: translateY(-17px) rotate(-45deg);
+    }
+}
+
+@keyframes active2 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes active1-reverse {
+    from {
+        transform: translateY(17px) rotate(45deg);
+    }
+    50% {
+        transform: translateY(17px) rotate(0deg);
+    }
+    to {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes active3-reverse {
+    from {
+        transform: translateY(-17px) rotate(-45deg);
+    }
+    50% {
+        transform: translateY(-17px) rotate(0deg);
+    }
+    to {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes active2-reverse {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
